@@ -55,7 +55,8 @@ public class ApiDemo implements IConnectionHandler {
 	private final StratPanel m_stratPanel = new StratPanel();
 	private final JTextArea m_msg = new JTextArea();
 
-    //....
+    //...........
+    //aaaaaa
 
 	// getter methods
 	public ArrayList<String> accountList() 	{ return m_acctList; }
