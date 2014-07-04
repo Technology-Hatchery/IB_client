@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.samples.Java.samples.rfq;
+package TWS.samples.Java.samples.rfq;
 
 import java.io.File;
 import java.io.IOException;
@@ -9,15 +9,15 @@ import java.io.PrintStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import API.TWS.source.JavaClient.com.ib.client.CommissionReport;
-import API.TWS.source.JavaClient.com.ib.client.Contract;
-import API.TWS.source.JavaClient.com.ib.client.ContractDetails;
-import API.TWS.source.JavaClient.com.ib.client.EClientSocket;
-import API.TWS.source.JavaClient.com.ib.client.EWrapper;
-import API.TWS.source.JavaClient.com.ib.client.Execution;
-import API.TWS.source.JavaClient.com.ib.client.Order;
-import API.TWS.source.JavaClient.com.ib.client.OrderState;
-import API.TWS.source.JavaClient.com.ib.client.UnderComp;
+import com.ib.client.CommissionReport;
+import com.ib.client.Contract;
+import com.ib.client.ContractDetails;
+import com.ib.client.EClientSocket;
+import com.ib.client.EWrapper;
+import com.ib.client.Execution;
+import com.ib.client.Order;
+import com.ib.client.OrderState;
+import com.ib.client.UnderComp;
 
 
 public class SimpleWrapper implements EWrapper {

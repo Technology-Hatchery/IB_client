@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.source.JavaClient.com.ib.controller;
+package com.ib.controller;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -9,28 +9,28 @@ import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.StringTokenizer;
 
-import API.TWS.source.JavaClient.com.ib.client.CommissionReport;
-import API.TWS.source.JavaClient.com.ib.client.Contract;
-import API.TWS.source.JavaClient.com.ib.client.ContractDetails;
-import API.TWS.source.JavaClient.com.ib.client.EWrapper;
-import API.TWS.source.JavaClient.com.ib.client.Execution;
-import API.TWS.source.JavaClient.com.ib.client.ExecutionFilter;
-import API.TWS.source.JavaClient.com.ib.client.Order;
-import API.TWS.source.JavaClient.com.ib.client.OrderState;
-import API.TWS.source.JavaClient.com.ib.client.ScannerSubscription;
-import API.TWS.source.JavaClient.com.ib.client.UnderComp;
-import API.TWS.source.JavaClient.com.ib.controller.*;
-import API.TWS.source.JavaClient.com.ib.controller.ApiConnection.ILogger;
-import API.TWS.source.JavaClient.com.ib.controller.Types.BarSize;
-import API.TWS.source.JavaClient.com.ib.controller.Types.DeepSide;
-import API.TWS.source.JavaClient.com.ib.controller.Types.DeepType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.DurationUnit;
-import API.TWS.source.JavaClient.com.ib.controller.Types.ExerciseType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.FADataType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.FundamentalType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.MktDataType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.NewsType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.WhatToShow;
+import com.ib.client.CommissionReport;
+import com.ib.client.Contract;
+import com.ib.client.ContractDetails;
+import com.ib.client.EWrapper;
+import com.ib.client.Execution;
+import com.ib.client.ExecutionFilter;
+import com.ib.client.Order;
+import com.ib.client.OrderState;
+import com.ib.client.ScannerSubscription;
+import com.ib.client.UnderComp;
+import com.ib.controller.*;
+import com.ib.controller.ApiConnection.ILogger;
+import com.ib.controller.Types.BarSize;
+import com.ib.controller.Types.DeepSide;
+import com.ib.controller.Types.DeepType;
+import com.ib.controller.Types.DurationUnit;
+import com.ib.controller.Types.ExerciseType;
+import com.ib.controller.Types.FADataType;
+import com.ib.controller.Types.FundamentalType;
+import com.ib.controller.Types.MktDataType;
+import com.ib.controller.Types.NewsType;
+import com.ib.controller.Types.WhatToShow;
 
 public class ApiController implements EWrapper {
 	private ApiConnection m_client;

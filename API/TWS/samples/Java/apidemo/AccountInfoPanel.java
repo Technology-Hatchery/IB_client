@@ -1,9 +1,9 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.samples.Java.apidemo;
+package TWS.samples.Java.apidemo;
 
- import static API.TWS.source.JavaClient.com.ib.controller.Formats.fmt0;
+ import static com.ib.controller.Formats.fmt0;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -26,13 +26,13 @@ import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableCellRenderer;
 
 
-import API.TWS.samples.Java.apidemo.util.NewTabbedPanel;
-import API.TWS.samples.Java.apidemo.util.NewTabbedPanel.INewTab;
+import TWS.samples.Java.apidemo.util.NewTabbedPanel;
+import TWS.samples.Java.apidemo.util.NewTabbedPanel.INewTab;
 
-import API.TWS.source.JavaClient.com.ib.controller.MarketValueTag;
-import API.TWS.source.JavaClient.com.ib.controller.Position;
-import API.TWS.source.JavaClient.com.ib.controller.ApiController.IAccountHandler;
-import API.TWS.source.JavaClient.com.ib.controller.Types.SecType;
+import com.ib.controller.MarketValueTag;
+import com.ib.controller.Position;
+import com.ib.controller.ApiController.IAccountHandler;
+import com.ib.controller.Types.SecType;
 
 public class AccountInfoPanel extends JPanel implements INewTab, IAccountHandler {
 	private DefaultListModel m_acctList = new DefaultListModel();

@@ -1,9 +1,9 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.samples.Java.apidemo;
+package TWS.samples.Java.apidemo;
 
-import static API.TWS.source.JavaClient.com.ib.controller.Formats.fmt;
+import static com.ib.controller.Formats.fmt;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -19,33 +19,33 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 
-import API.TWS.samples.Java.apidemo.util.HtmlButton;
-import API.TWS.samples.Java.apidemo.util.NewTabbedPanel;
-import API.TWS.samples.Java.apidemo.util.TCombo;
-import API.TWS.samples.Java.apidemo.util.UpperField;
-import API.TWS.samples.Java.apidemo.util.Util;
-import API.TWS.samples.Java.apidemo.util.VerticalPanel;
-import API.TWS.samples.Java.apidemo.util.VerticalPanel.HorzPanel;
-import API.TWS.samples.Java.apidemo.util.VerticalPanel.StackPanel;
+import TWS.samples.Java.apidemo.util.HtmlButton;
+import TWS.samples.Java.apidemo.util.NewTabbedPanel;
+import TWS.samples.Java.apidemo.util.TCombo;
+import TWS.samples.Java.apidemo.util.UpperField;
+import TWS.samples.Java.apidemo.util.Util;
+import TWS.samples.Java.apidemo.util.VerticalPanel;
+import TWS.samples.Java.apidemo.util.VerticalPanel.HorzPanel;
+import TWS.samples.Java.apidemo.util.VerticalPanel.StackPanel;
 
-import API.TWS.source.JavaClient.com.ib.client.TagValue;
-import API.TWS.source.JavaClient.com.ib.controller.ApiController.IOrderHandler;
-import API.TWS.source.JavaClient.com.ib.controller.NewContract;
-import API.TWS.source.JavaClient.com.ib.controller.NewOrder;
-import API.TWS.source.JavaClient.com.ib.controller.NewOrderState;
-import API.TWS.source.JavaClient.com.ib.controller.OrderType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.Action;
-import API.TWS.source.JavaClient.com.ib.controller.Types.AlgoParam;
-import API.TWS.source.JavaClient.com.ib.controller.Types.AlgoStrategy;
-import API.TWS.source.JavaClient.com.ib.controller.Types.ComboParam;
-import API.TWS.source.JavaClient.com.ib.controller.Types.HedgeType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.Method;
-import API.TWS.source.JavaClient.com.ib.controller.Types.OcaType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.ReferencePriceType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.Rule80A;
-import API.TWS.source.JavaClient.com.ib.controller.Types.TimeInForce;
-import API.TWS.source.JavaClient.com.ib.controller.Types.TriggerMethod;
-import API.TWS.source.JavaClient.com.ib.controller.Types.VolatilityType;
+import com.ib.client.TagValue;
+import com.ib.controller.ApiController.IOrderHandler;
+import com.ib.controller.NewContract;
+import com.ib.controller.NewOrder;
+import com.ib.controller.NewOrderState;
+import com.ib.controller.OrderType;
+import com.ib.controller.Types.Action;
+import com.ib.controller.Types.AlgoParam;
+import com.ib.controller.Types.AlgoStrategy;
+import com.ib.controller.Types.ComboParam;
+import com.ib.controller.Types.HedgeType;
+import com.ib.controller.Types.Method;
+import com.ib.controller.Types.OcaType;
+import com.ib.controller.Types.ReferencePriceType;
+import com.ib.controller.Types.Rule80A;
+import com.ib.controller.Types.TimeInForce;
+import com.ib.controller.Types.TriggerMethod;
+import com.ib.controller.Types.VolatilityType;
 
 public class TicketDlg extends JDialog {
 	private boolean m_editContract;

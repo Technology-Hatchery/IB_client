@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.samples.Java.apidemo;
+package TWS.samples.Java.apidemo;
 
 
 import java.awt.BorderLayout;
@@ -19,18 +19,18 @@ import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.border.EmptyBorder;
 
-import API.TWS.samples.Java.apidemo.util.HtmlButton;
-import API.TWS.samples.Java.apidemo.util.NewLookAndFeel;
-import API.TWS.samples.Java.apidemo.util.NewTabbedPanel;
-import API.TWS.samples.Java.apidemo.util.VerticalPanel;
+import TWS.samples.Java.apidemo.util.HtmlButton;
+import TWS.samples.Java.apidemo.util.NewLookAndFeel;
+import TWS.samples.Java.apidemo.util.NewTabbedPanel;
+import TWS.samples.Java.apidemo.util.VerticalPanel;
 
-import API.TWS.source.JavaClient.com.ib.controller.ApiConnection.ILogger;
-import API.TWS.source.JavaClient.com.ib.controller.ApiController;
-import API.TWS.source.JavaClient.com.ib.controller.ApiController.IBulletinHandler;
-import API.TWS.source.JavaClient.com.ib.controller.ApiController.IConnectionHandler;
-import API.TWS.source.JavaClient.com.ib.controller.ApiController.ITimeHandler;
-import API.TWS.source.JavaClient.com.ib.controller.Formats;
-import API.TWS.source.JavaClient.com.ib.controller.Types.NewsType;
+import com.ib.controller.ApiConnection.ILogger;
+import com.ib.controller.ApiController;
+import com.ib.controller.ApiController.IBulletinHandler;
+import com.ib.controller.ApiController.IConnectionHandler;
+import com.ib.controller.ApiController.ITimeHandler;
+import com.ib.controller.Formats;
+import com.ib.controller.Types.NewsType;
 
 public class ApiDemo implements IConnectionHandler {
 	static { NewLookAndFeel.register(); }

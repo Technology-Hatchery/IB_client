@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.samples.Java.apidemo;
+package TWS.samples.Java.apidemo;
 
 import java.awt.BorderLayout;
 import java.awt.Desktop;
@@ -23,30 +23,30 @@ import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableCellRenderer;
 
 
-import API.TWS.samples.Java.apidemo.util.HtmlButton;
-import API.TWS.samples.Java.apidemo.util.NewTabbedPanel;
-import API.TWS.samples.Java.apidemo.util.TCombo;
-import API.TWS.samples.Java.apidemo.util.UpperField;
-import API.TWS.samples.Java.apidemo.util.VerticalPanel;
-import API.TWS.samples.Java.apidemo.util.NewTabbedPanel.NewTabPanel;
-import API.TWS.samples.Java.apidemo.util.VerticalPanel.StackPanel;
+import TWS.samples.Java.apidemo.util.HtmlButton;
+import TWS.samples.Java.apidemo.util.NewTabbedPanel;
+import TWS.samples.Java.apidemo.util.TCombo;
+import TWS.samples.Java.apidemo.util.UpperField;
+import TWS.samples.Java.apidemo.util.VerticalPanel;
+import TWS.samples.Java.apidemo.util.NewTabbedPanel.NewTabPanel;
+import TWS.samples.Java.apidemo.util.VerticalPanel.StackPanel;
 
-import API.TWS.source.JavaClient.com.ib.client.ScannerSubscription;
-import API.TWS.source.JavaClient.com.ib.controller.Bar;
-import API.TWS.source.JavaClient.com.ib.controller.Instrument;
-import API.TWS.source.JavaClient.com.ib.controller.NewContract;
-import API.TWS.source.JavaClient.com.ib.controller.NewContractDetails;
-import API.TWS.source.JavaClient.com.ib.controller.ScanCode;
-import API.TWS.source.JavaClient.com.ib.controller.ApiController.IDeepMktDataHandler;
-import API.TWS.source.JavaClient.com.ib.controller.ApiController.IHistoricalDataHandler;
-import API.TWS.source.JavaClient.com.ib.controller.ApiController.IRealTimeBarHandler;
-import API.TWS.source.JavaClient.com.ib.controller.ApiController.IScannerHandler;
-import API.TWS.source.JavaClient.com.ib.controller.Types.BarSize;
-import API.TWS.source.JavaClient.com.ib.controller.Types.DeepSide;
-import API.TWS.source.JavaClient.com.ib.controller.Types.DeepType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.DurationUnit;
-import API.TWS.source.JavaClient.com.ib.controller.Types.MktDataType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.WhatToShow;
+import com.ib.client.ScannerSubscription;
+import com.ib.controller.Bar;
+import com.ib.controller.Instrument;
+import com.ib.controller.NewContract;
+import com.ib.controller.NewContractDetails;
+import com.ib.controller.ScanCode;
+import com.ib.controller.ApiController.IDeepMktDataHandler;
+import com.ib.controller.ApiController.IHistoricalDataHandler;
+import com.ib.controller.ApiController.IRealTimeBarHandler;
+import com.ib.controller.ApiController.IScannerHandler;
+import com.ib.controller.Types.BarSize;
+import com.ib.controller.Types.DeepSide;
+import com.ib.controller.Types.DeepType;
+import com.ib.controller.Types.DurationUnit;
+import com.ib.controller.Types.MktDataType;
+import com.ib.controller.Types.WhatToShow;
 
 public class MarketDataPanel extends JPanel {
 	private final NewContract m_contract = new NewContract();

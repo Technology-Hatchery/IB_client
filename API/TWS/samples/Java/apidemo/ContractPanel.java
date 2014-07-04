@@ -1,20 +1,20 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.samples.Java.apidemo;
+package TWS.samples.Java.apidemo;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 
 import javax.swing.JPanel;
 
-import API.TWS.samples.Java.apidemo.util.TCombo;
-import API.TWS.samples.Java.apidemo.util.UpperField;
-import API.TWS.samples.Java.apidemo.util.VerticalPanel;
+import TWS.samples.Java.apidemo.util.TCombo;
+import TWS.samples.Java.apidemo.util.UpperField;
+import TWS.samples.Java.apidemo.util.VerticalPanel;
 
-import API.TWS.source.JavaClient.com.ib.controller.NewContract;
-import API.TWS.source.JavaClient.com.ib.controller.Types.Right;
-import API.TWS.source.JavaClient.com.ib.controller.Types.SecType;
+import com.ib.controller.NewContract;
+import com.ib.controller.Types.Right;
+import com.ib.controller.Types.SecType;
 
 public class ContractPanel extends JPanel {
 	protected UpperField m_symbol = new UpperField();

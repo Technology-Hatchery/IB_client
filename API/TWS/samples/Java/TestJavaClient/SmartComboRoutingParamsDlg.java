@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.samples.Java.TestJavaClient;
+package TWS.samples.Java.TestJavaClient;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
@@ -21,8 +21,8 @@ import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.table.AbstractTableModel;
 
-import API.TWS.source.JavaClient.com.ib.client.Order;
-import API.TWS.source.JavaClient.com.ib.client.TagValue;
+import com.ib.client.Order;
+import com.ib.client.TagValue;
 
 public class SmartComboRoutingParamsDlg extends JDialog {
     private Order m_order;

@@ -1,18 +1,18 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.samples.Java.samples.rfq;
+package TWS.samples.Java.samples.rfq;
 
 
-import API.TWS.source.JavaClient.com.ib.client.ComboLeg;
-import API.TWS.source.JavaClient.com.ib.client.Contract;
-import API.TWS.source.JavaClient.com.ib.client.ContractDetails;
-import API.TWS.source.JavaClient.com.ib.client.TickType;
-import API.TWS.source.JavaClient.com.ib.client.UnderComp;
-import API.TWS.source.JavaClient.com.ib.contracts.ComboContract;
-import API.TWS.source.JavaClient.com.ib.contracts.FutContract;
-import API.TWS.source.JavaClient.com.ib.contracts.OptContract;
-import API.TWS.source.JavaClient.com.ib.contracts.StkContract;
+import com.ib.client.ComboLeg;
+import com.ib.client.Contract;
+import com.ib.client.ContractDetails;
+import com.ib.client.TickType;
+import com.ib.client.UnderComp;
+import com.ib.contracts.ComboContract;
+import com.ib.contracts.FutContract;
+import com.ib.contracts.OptContract;
+import com.ib.contracts.StkContract;
 
 import java.util.Vector;
 

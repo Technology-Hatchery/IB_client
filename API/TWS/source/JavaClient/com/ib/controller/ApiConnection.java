@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.source.JavaClient.com.ib.controller;
+package com.ib.controller;
 
 
 import java.io.DataInputStream;
@@ -13,19 +13,19 @@ import java.io.OutputStream;
 import java.lang.reflect.Field;
 import java.net.Socket;
 
-import API.TWS.source.JavaClient.com.ib.client.AnyWrapper;
-import API.TWS.source.JavaClient.com.ib.client.Builder;
-import API.TWS.source.JavaClient.com.ib.client.EClientErrors;
-import API.TWS.source.JavaClient.com.ib.client.EClientSocket;
-import API.TWS.source.JavaClient.com.ib.client.EReader;
-import API.TWS.source.JavaClient.com.ib.client.TagValue;
-import API.TWS.source.JavaClient.com.ib.controller.NewComboLeg;
-import API.TWS.source.JavaClient.com.ib.controller.NewContract;
-import API.TWS.source.JavaClient.com.ib.controller.NewOrder;
-import API.TWS.source.JavaClient.com.ib.controller.OrderType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.AlgoStrategy;
-import API.TWS.source.JavaClient.com.ib.controller.Types.HedgeType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.SecType;
+import com.ib.client.AnyWrapper;
+import com.ib.client.Builder;
+import com.ib.client.EClientErrors;
+import com.ib.client.EClientSocket;
+import com.ib.client.EReader;
+import com.ib.client.TagValue;
+import com.ib.controller.NewComboLeg;
+import com.ib.controller.NewContract;
+import com.ib.controller.NewOrder;
+import com.ib.controller.OrderType;
+import com.ib.controller.Types.AlgoStrategy;
+import com.ib.controller.Types.HedgeType;
+import com.ib.controller.Types.SecType;
 
 // NOTE: TWS 936 SERVER_VERSION is 67.
 

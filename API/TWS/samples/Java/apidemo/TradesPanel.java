@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.samples.Java.apidemo;
+package TWS.samples.Java.apidemo;
 
 import java.awt.BorderLayout;
 import java.awt.FlowLayout;
@@ -15,13 +15,13 @@ import javax.swing.border.TitledBorder;
 import javax.swing.table.AbstractTableModel;
 
 
-import API.TWS.samples.Java.apidemo.util.HtmlButton;
+import TWS.samples.Java.apidemo.util.HtmlButton;
 
-import API.TWS.source.JavaClient.com.ib.client.CommissionReport;
-import API.TWS.source.JavaClient.com.ib.client.Execution;
-import API.TWS.source.JavaClient.com.ib.client.ExecutionFilter;
-import API.TWS.source.JavaClient.com.ib.controller.NewContract;
-import API.TWS.source.JavaClient.com.ib.controller.ApiController.ITradeReportHandler;
+import com.ib.client.CommissionReport;
+import com.ib.client.Execution;
+import com.ib.client.ExecutionFilter;
+import com.ib.controller.NewContract;
+import com.ib.controller.ApiController.ITradeReportHandler;
 
 public class TradesPanel extends JPanel implements ITradeReportHandler {
 	private ArrayList<FullExec> m_trades = new ArrayList<FullExec>();

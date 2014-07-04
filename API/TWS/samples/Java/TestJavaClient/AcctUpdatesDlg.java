@@ -2,7 +2,7 @@
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
 
-package API.TWS.samples.Java.TestJavaClient;
+package TWS.samples.Java.TestJavaClient;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;

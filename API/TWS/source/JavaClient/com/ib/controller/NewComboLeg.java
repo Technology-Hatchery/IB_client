@@ -1,11 +1,11 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.source.JavaClient.com.ib.controller;
+package com.ib.controller;
 
-import API.TWS.source.JavaClient.com.ib.client.ComboLeg;
-import API.TWS.source.JavaClient.com.ib.controller.Types;
-import API.TWS.source.JavaClient.com.ib.controller.Types.Action;
+import com.ib.client.ComboLeg;
+import com.ib.controller.Types;
+import com.ib.controller.Types.Action;
 
 public class NewComboLeg {
 	enum OpenClose {

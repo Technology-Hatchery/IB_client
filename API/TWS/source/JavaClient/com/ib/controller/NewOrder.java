@@ -1,23 +1,23 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.source.JavaClient.com.ib.controller;
+package com.ib.controller;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import API.TWS.source.JavaClient.com.ib.client.Order;
-import API.TWS.source.JavaClient.com.ib.client.TagValue;
-import API.TWS.source.JavaClient.com.ib.controller.Types.Action;
-import API.TWS.source.JavaClient.com.ib.controller.Types.AlgoStrategy;
-import API.TWS.source.JavaClient.com.ib.controller.Types.HedgeType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.Method;
-import API.TWS.source.JavaClient.com.ib.controller.Types.OcaType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.ReferencePriceType;
-import API.TWS.source.JavaClient.com.ib.controller.Types.Rule80A;
-import API.TWS.source.JavaClient.com.ib.controller.Types.TimeInForce;
-import API.TWS.source.JavaClient.com.ib.controller.Types.TriggerMethod;
-import API.TWS.source.JavaClient.com.ib.controller.Types.VolatilityType;
+import com.ib.client.Order;
+import com.ib.client.TagValue;
+import com.ib.controller.Types.Action;
+import com.ib.controller.Types.AlgoStrategy;
+import com.ib.controller.Types.HedgeType;
+import com.ib.controller.Types.Method;
+import com.ib.controller.Types.OcaType;
+import com.ib.controller.Types.ReferencePriceType;
+import com.ib.controller.Types.Rule80A;
+import com.ib.controller.Types.TimeInForce;
+import com.ib.controller.Types.TriggerMethod;
+import com.ib.controller.Types.VolatilityType;
 
 public class NewOrder {
 	// order id's

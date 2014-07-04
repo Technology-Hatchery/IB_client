@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.samples.Java.TestJavaClient;
+package TWS.samples.Java.TestJavaClient;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -23,10 +23,10 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 
-import API.TWS.source.JavaClient.com.ib.client.Contract;
-import API.TWS.source.JavaClient.com.ib.client.MarketDataType;
-import API.TWS.source.JavaClient.com.ib.client.Order;
-import API.TWS.source.JavaClient.com.ib.client.UnderComp;
+import com.ib.client.Contract;
+import com.ib.client.MarketDataType;
+import com.ib.client.Order;
+import com.ib.client.UnderComp;
 
 public class OrderDlg extends JDialog {
     final static String ALL_GENERIC_TICK_TAGS = "100,101,104,105,106,107,165,221,225,233,236,258,293,294,295,318";

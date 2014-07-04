@@ -1,7 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73351182-f666-4b5c-bd2c-b2af6bfa6c91" name="Default" comment="" />
+    <list default="true" id="73351182-f666-4b5c-bd2c-b2af6bfa6c91" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/AccountDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/AccountDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/AccountInfoPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/AccountInfoPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/AccountSummary.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/AccountSummary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/AccountSummaryPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/AccountSummaryPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/AccountSummaryTag.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/AccountSummaryTag.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/AcctUpdatesDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/AcctUpdatesDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/AdvisorPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/AdvisorPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/AdvisorUtil.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/AdvisorUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/AlgoParamsDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/AlgoParamsDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Alias.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Alias.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/AnyWrapper.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/AnyWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/AnyWrapperMsgGenerator.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/AnyWrapperMsgGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/ApiConnection.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/ApiConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/ApiController.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/ApiController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ApiDemo.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ApiDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Bar.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Bar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/Builder.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/Builder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/Chart.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/Chart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/contracts/ComboContract.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/contracts/ComboContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/ComboLeg.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/ComboLeg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/ComboLegDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/ComboLegDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ComboPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ComboPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/CommissionReport.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/CommissionReport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/ConcurrentHashSet.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/ConcurrentHashSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/ConnectDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/ConnectDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/Contract.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/Contract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/ContractDetails.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/ContractDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ContractDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ContractDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ContractInfoPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ContractInfoPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ContractPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ContractPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/samples/dnhedge/DNHedgeOrder.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/samples/dnhedge/DNHedgeOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/DeltaNeutralContract.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/DeltaNeutralContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/EClientErrors.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/EClientErrors.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/EClientSocket.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/EClientSocket.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/EReader.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/EReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/EWrapper.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/EWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/EWrapperMsgGenerator.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/EWrapperMsgGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/ExecFilterDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/ExecFilterDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/Execution.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/Execution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/ExecutionFilter.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/ExecutionFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ExercisePanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ExercisePanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/ExtOrdDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/ExtOrdDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/FAAllocationInfoDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/FAAllocationInfoDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/FinancialAdvisorDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/FinancialAdvisorDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Formats.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Formats.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/contracts/FutContract.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/contracts/FutContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Group.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Group.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/HtmlButton.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/HtmlButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/IApiEnum.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/IApiEnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/IBGridBagPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/IBGridBagPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/IBTextPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/IBTextPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IB_client.iml" afterPath="$PROJECT_DIR$/IB_client.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Instrument.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Instrument.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/LocationCode.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/LocationCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/LogConfigDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/LogConfigDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/Main.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/MarketDataPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/MarketDataPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/MarketDataType.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/MarketDataType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/MarketValueSummaryPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/MarketValueSummaryPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/MarketValueTag.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/MarketValueTag.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/MktDepthDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/MktDepthDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/NewComboLeg.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/NewComboLeg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/NewContract.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/NewContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/NewContractDetails.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/NewContractDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/NewLookAndFeel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/NewLookAndFeel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/NewOrder.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/NewOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/NewOrderState.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/NewOrderState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/NewTabbedPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/NewTabbedPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/NewTickType.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/NewTickType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/NewsBulletinDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/NewsBulletinDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/contracts/OptContract.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/contracts/OptContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/OptionChainsPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/OptionChainsPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/OptionsPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/OptionsPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/Order.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/OrderComboLeg.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/OrderComboLeg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/OrderDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/OrderDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/OrderState.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/OrderState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/OrderStatus.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/OrderStatus.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/OrderType.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/OrderType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/OrdersPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/OrdersPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/PairPanel.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/PairPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Position.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Position.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/PositionsPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/PositionsPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Profile.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Profile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/samples/rfq/RfqOrder.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/samples/rfq/RfqOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/samples/dnhedge/SampleDNHedge.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/samples/dnhedge/SampleDNHedge.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/SampleFrame.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/SampleFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/samples/rfq/SampleRfq.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/samples/rfq/SampleRfq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/ScanCode.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/ScanCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/ScannerDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/ScannerDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/ScannerSubscription.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/ScannerSubscription.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/samples/rfq/SimpleWrapper.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/samples/rfq/SimpleWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/SmartComboRoutingParamsDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/SmartComboRoutingParamsDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/contracts/StkContract.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/contracts/StkContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/StratPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/StratPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/TCombo.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/TCombo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/TagValue.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/TagValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/Test.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/TickType.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/TickType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/TicketDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/TicketDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/TopModel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/TopModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/TradeId.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/TradeId.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/TradesPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/TradesPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/TradingPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/TradingPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Types.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/controller/Types.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/UnderComp.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/UnderComp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/UnderCompDlg.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/TestJavaClient/UnderCompDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/UpperField.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/UpperField.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/Util.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/Util.java" afterPath="$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/VerticalPanel.java" afterPath="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/util/VerticalPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="IB_client.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,56 +139,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="API_VersionNum.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/TWS/API_VersionNum.txt">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="119">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".project" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/TWS/source/JavaClient/.project">
+      <file leaf-file-name="AccountInfoPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/AccountInfoPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="561">
+            <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="7871">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".classpath" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/TWS/source/JavaClient/.classpath">
+      <file leaf-file-name="ExercisePanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ExercisePanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="2227">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnyWrapper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/AnyWrapper.java">
+      <file leaf-file-name="ApiDemo.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ApiDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="306">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#412#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.5389049" vertical-offset="119" max-vertical-offset="4182">
+              <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EClientSocket.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/EClientSocket.java">
+      <file leaf-file-name="ComboPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ComboPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="39440">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#79335#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="10574">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PositionsPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/PositionsPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2941">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StratPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/StratPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="3553">
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,12 +229,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/TWS.samples.Java.TestJavaClient/Main.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/com.ib/controller/Group.java" />
+        <option value="$PROJECT_DIR$/com.ib/controller/Types.java" />
+        <option value="$PROJECT_DIR$/com.ib/client/IApiEnum.java" />
+        <option value="$PROJECT_DIR$/TWS.samples.Java.TestJavaClient/AccountSummary.java" />
+        <option value="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ExercisePanel.java" />
+        <option value="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ComboPanel.java" />
+        <option value="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/PositionsPanel.java" />
+        <option value="$PROJECT_DIR$/API/TWS/samples/Java/apidemo/StratPanel.java" />
+      </list>
+    </option>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="102" />
-    <option name="y" value="39" />
-    <option name="width" value="1230" />
-    <option name="height" value="701" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -101,7 +259,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -120,8 +278,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -137,144 +295,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="API" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWS" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="API" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWS" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="API" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWS" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaClient" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="API" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWS" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaClient" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ib" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="API" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TWS" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JavaClient" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ib" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,16 +314,104 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/TWS API/source/JavaClient" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/TWS API" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\API" />
+      <recent name="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client" />
+      <recent name="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestClient">
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IB_client" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IB_client" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IB_client" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -314,17 +422,10 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -355,19 +456,43 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
       <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IB_client" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -391,55 +516,272 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IB_client" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IB_client" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IB_client" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestClient" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TWS.samples.Java.apidemo.ApiDemo" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IB_client" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.TestClient" />
+    </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="73351182-f666-4b5c-bd2c-b2af6bfa6c91" name="Default" comment="" />
       <created>1404453123938</created>
       <updated>1404453123938</updated>
-      <workItem from="1404453126035" duration="305000" />
+      <workItem from="1404453126035" duration="1103000" />
+      <workItem from="1404454302702" duration="750000" />
+      <workItem from="1404455144785" duration="259000" />
+      <workItem from="1404455433428" duration="486000" />
+      <workItem from="1404472276321" duration="82000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305000" />
+    <option name="totallyTimeSpent" value="2680000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="102" y="39" width="1230" height="701" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24957265" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2655068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -467,11 +809,90 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/API/TWS/API_VersionNum.txt">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/AccountInfoPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="7871">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ExercisePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="2227">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ApiDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="4318">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ComboPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="10574">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/PositionsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2941">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/StratPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="3553">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/API_VersionNum.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -479,7 +900,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/source/JavaClient/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/API_VersionNum.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/source/JavaClient/.project">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -487,27 +928,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="541">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/AnyWrapper.java">
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/AccountInfoPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="541">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#412#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6817">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/TWS/source/JavaClient/com/ib/client/EClientSocket.java">
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ExercisePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="39423">
+        <state vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="2108">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ComboPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="251" max-vertical-offset="9809">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/PositionsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="2652">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/StratPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="200" max-vertical-offset="3400">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2550">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#79335#0" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API/TWS/samples/Java/apidemo/ApiDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5389049" vertical-offset="119" max-vertical-offset="4182">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -571,6 +1055,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.samples.Java.apidemo;
+package TWS.samples.Java.apidemo;
 
 import java.awt.BorderLayout;
 import java.util.ArrayList;
@@ -12,14 +12,14 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.AbstractTableModel;
 
-import API.TWS.samples.Java.apidemo.AccountInfoPanel.Table;
-import API.TWS.samples.Java.apidemo.util.HtmlButton;
-import API.TWS.samples.Java.apidemo.util.NewTabbedPanel.NewTabPanel;
-import API.TWS.samples.Java.apidemo.util.VerticalPanel;
+import TWS.samples.Java.apidemo.AccountInfoPanel.Table;
+import TWS.samples.Java.apidemo.util.HtmlButton;
+import TWS.samples.Java.apidemo.util.NewTabbedPanel.NewTabPanel;
+import TWS.samples.Java.apidemo.util.VerticalPanel;
 
-import API.TWS.source.JavaClient.com.ib.controller.AccountSummaryTag;
-import API.TWS.source.JavaClient.com.ib.controller.ApiController.IAccountSummaryHandler;
-import API.TWS.source.JavaClient.com.ib.controller.Formats;
+import com.ib.controller.AccountSummaryTag;
+import com.ib.controller.ApiController.IAccountSummaryHandler;
+import com.ib.controller.Formats;
 
 
 public class AccountSummaryPanel extends NewTabPanel {

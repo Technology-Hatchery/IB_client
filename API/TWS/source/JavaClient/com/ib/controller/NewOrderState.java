@@ -1,10 +1,10 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package API.TWS.source.JavaClient.com.ib.controller;
+package com.ib.controller;
 
-import API.TWS.source.JavaClient.com.ib.client.OrderState;
-import API.TWS.source.JavaClient.com.ib.controller.OrderStatus;
+import com.ib.client.OrderState;
+import com.ib.controller.OrderStatus;
 
 public class NewOrderState {
 	private OrderStatus m_status;
