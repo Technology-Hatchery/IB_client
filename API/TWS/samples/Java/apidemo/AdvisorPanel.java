@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package apidemo;
+package API.TWS.samples.Java.apidemo;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -21,18 +21,18 @@ import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableCellEditor;
 
 
-import apidemo.util.HtmlButton;
-import apidemo.util.TCombo;
-import apidemo.util.VerticalPanel;
-import apidemo.util.NewTabbedPanel.NewTabPanel;
+import API.TWS.samples.Java.apidemo.util.HtmlButton;
+import API.TWS.samples.Java.apidemo.util.TCombo;
+import API.TWS.samples.Java.apidemo.util.VerticalPanel;
+import API.TWS.samples.Java.apidemo.util.NewTabbedPanel.NewTabPanel;
 
-import com.ib.controller.Alias;
-import com.ib.controller.Group;
-import com.ib.controller.Profile;
-import com.ib.controller.ApiController.IAdvisorHandler;
-import com.ib.controller.Profile.Type;
-import com.ib.controller.Types.FADataType;
-import com.ib.controller.Types.Method;
+import API.TWS.source.JavaClient.com.ib.controller.Alias;
+import API.TWS.source.JavaClient.com.ib.controller.Group;
+import API.TWS.source.JavaClient.com.ib.controller.Profile;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.IAdvisorHandler;
+import API.TWS.source.JavaClient.com.ib.controller.Profile.Type;
+import API.TWS.source.JavaClient.com.ib.controller.Types.FADataType;
+import API.TWS.source.JavaClient.com.ib.controller.Types.Method;
 
 public class AdvisorPanel extends NewTabPanel implements IAdvisorHandler {
 	static DefaultCellEditor DEF_CELL_EDITOR = new DefaultCellEditor( new JTextField() );

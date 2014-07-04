@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package apidemo;
+package API.TWS.samples.Java.apidemo;
 
 import javax.swing.BoxLayout;
 import javax.swing.DefaultListModel;
@@ -15,17 +15,17 @@ import javax.swing.event.ListSelectionListener;
 
 
 import apidemo.AccountInfoPanel.PortfolioModel;
-import apidemo.util.HtmlButton;
-import apidemo.util.TCombo;
-import apidemo.util.UpperField;
-import apidemo.util.VerticalPanel;
-import apidemo.util.NewTabbedPanel.INewTab;
-import apidemo.util.VerticalPanel.HorzPanel;
+import API.TWS.samples.Java.apidemo.util.HtmlButton;
+import API.TWS.samples.Java.apidemo.util.TCombo;
+import API.TWS.samples.Java.apidemo.util.UpperField;
+import API.TWS.samples.Java.apidemo.util.VerticalPanel;
+import API.TWS.samples.Java.apidemo.util.NewTabbedPanel.INewTab;
+import API.TWS.samples.Java.apidemo.util.VerticalPanel.HorzPanel;
 
-import com.ib.controller.Position;
-import com.ib.controller.ApiController.IAccountHandler;
-import com.ib.controller.Types.ExerciseType;
-import com.ib.controller.Types.SecType;
+import API.TWS.source.JavaClient.com.ib.controller.Position;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.IAccountHandler;
+import API.TWS.source.JavaClient.com.ib.controller.Types.ExerciseType;
+import API.TWS.source.JavaClient.com.ib.controller.Types.SecType;
 
 
 public class ExercisePanel extends HorzPanel implements INewTab, IAccountHandler {

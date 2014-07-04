@@ -1,7 +1,9 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package com.ib.controller;
+package API.TWS.source.JavaClient.com.ib.controller;
+
+import API.TWS.source.JavaClient.com.ib.controller.Types;
 
 import java.util.ArrayList;
 import java.util.StringTokenizer;
@@ -41,7 +43,7 @@ public class Profile {
     	NONE, Percents, Ratios, Shares;
 
     	public static Type get( int ordinal) {
-    		return Types.getEnum( ordinal, values() );
+    		return Types.getEnum(ordinal, values());
     	}
     };
 

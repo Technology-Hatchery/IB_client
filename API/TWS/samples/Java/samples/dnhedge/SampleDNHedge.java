@@ -1,15 +1,15 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package samples.dnhedge;
+package API.TWS.samples.Java.samples.dnhedge;
 
 
-import samples.rfq.SimpleWrapper;
+import API.TWS.samples.Java.samples.rfq.SimpleWrapper;
 
-import com.ib.client.Contract;
-import com.ib.client.ContractDetails;
-import com.ib.contracts.OptContract;
-import com.ib.contracts.StkContract;
+import API.TWS.source.JavaClient.com.ib.client.Contract;
+import API.TWS.source.JavaClient.com.ib.client.ContractDetails;
+import API.TWS.source.JavaClient.com.ib.contracts.OptContract;
+import API.TWS.source.JavaClient.com.ib.contracts.StkContract;
 
 
 public class SampleDNHedge extends SimpleWrapper {

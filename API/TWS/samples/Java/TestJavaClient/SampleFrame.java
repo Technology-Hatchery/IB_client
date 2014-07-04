@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package TestJavaClient;
+package API.TWS.samples.Java.TestJavaClient;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
@@ -16,18 +16,18 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import com.ib.client.AnyWrapperMsgGenerator;
-import com.ib.client.CommissionReport;
-import com.ib.client.Contract;
-import com.ib.client.ContractDetails;
-import com.ib.client.EClientSocket;
-import com.ib.client.EWrapper;
-import com.ib.client.EWrapperMsgGenerator;
-import com.ib.client.Execution;
-import com.ib.client.Order;
-import com.ib.client.OrderState;
-import com.ib.client.UnderComp;
-import com.ib.client.Util;
+import API.TWS.source.JavaClient.com.ib.client.AnyWrapperMsgGenerator;
+import API.TWS.source.JavaClient.com.ib.client.CommissionReport;
+import API.TWS.source.JavaClient.com.ib.client.Contract;
+import API.TWS.source.JavaClient.com.ib.client.ContractDetails;
+import API.TWS.source.JavaClient.com.ib.client.EClientSocket;
+import API.TWS.source.JavaClient.com.ib.client.EWrapper;
+import API.TWS.source.JavaClient.com.ib.client.EWrapperMsgGenerator;
+import API.TWS.source.JavaClient.com.ib.client.Execution;
+import API.TWS.source.JavaClient.com.ib.client.Order;
+import API.TWS.source.JavaClient.com.ib.client.OrderState;
+import API.TWS.source.JavaClient.com.ib.client.UnderComp;
+import API.TWS.source.JavaClient.com.ib.client.Util;
 
 class SampleFrame extends JFrame implements EWrapper {
     private static final int NOT_AN_FA_ACCOUNT_ERROR = 321 ;

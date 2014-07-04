@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package apidemo;
+package API.TWS.samples.Java.apidemo;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -23,25 +23,25 @@ import javax.swing.table.AbstractTableModel;
 
 import apidemo.OrdersPanel.OrderRow;
 import apidemo.OrdersPanel.OrdersModel;
-import apidemo.TopModel.TopRow;
-import apidemo.util.HtmlButton;
-import apidemo.util.NewTabbedPanel;
-import apidemo.util.TCombo;
-import apidemo.util.UpperField;
-import apidemo.util.VerticalPanel;
-import apidemo.util.NewTabbedPanel.INewTab;
-import apidemo.util.VerticalPanel.HorzPanel;
+import API.TWS.samples.Java.apidemo.TopModel.TopRow;
+import API.TWS.samples.Java.apidemo.util.HtmlButton;
+import API.TWS.samples.Java.apidemo.util.NewTabbedPanel;
+import API.TWS.samples.Java.apidemo.util.TCombo;
+import API.TWS.samples.Java.apidemo.util.UpperField;
+import API.TWS.samples.Java.apidemo.util.VerticalPanel;
+import API.TWS.samples.Java.apidemo.util.NewTabbedPanel.INewTab;
+import API.TWS.samples.Java.apidemo.util.VerticalPanel.HorzPanel;
 
-import com.ib.controller.DeltaNeutralContract;
-import com.ib.controller.NewComboLeg;
-import com.ib.controller.NewContract;
-import com.ib.controller.NewContractDetails;
-import com.ib.controller.NewOrder;
-import com.ib.controller.NewOrderState;
-import com.ib.controller.ApiController.IContractDetailsHandler;
-import com.ib.controller.ApiController.IEfpHandler;
-import com.ib.controller.Types.Action;
-import com.ib.controller.Types.SecType;
+import API.TWS.source.JavaClient.com.ib.controller.DeltaNeutralContract;
+import API.TWS.source.JavaClient.com.ib.controller.NewComboLeg;
+import API.TWS.source.JavaClient.com.ib.controller.NewContract;
+import API.TWS.source.JavaClient.com.ib.controller.NewContractDetails;
+import API.TWS.source.JavaClient.com.ib.controller.NewOrder;
+import API.TWS.source.JavaClient.com.ib.controller.NewOrderState;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.IContractDetailsHandler;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.IEfpHandler;
+import API.TWS.source.JavaClient.com.ib.controller.Types.Action;
+import API.TWS.source.JavaClient.com.ib.controller.Types.SecType;
 
 
 public class ComboPanel extends JPanel implements INewTab {

@@ -1,16 +1,19 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package com.ib.controller;
+package API.TWS.source.JavaClient.com.ib.controller;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.StringReader;
 import java.util.ArrayList;
 
-import com.ib.controller.Profile.Allocation;
-import com.ib.controller.Profile.Type;
-import com.ib.controller.Types.Method;
+import API.TWS.source.JavaClient.com.ib.controller.Alias;
+import API.TWS.source.JavaClient.com.ib.controller.Group;
+import API.TWS.source.JavaClient.com.ib.controller.Profile;
+import API.TWS.source.JavaClient.com.ib.controller.Profile.Allocation;
+import API.TWS.source.JavaClient.com.ib.controller.Profile.Type;
+import API.TWS.source.JavaClient.com.ib.controller.Types.Method;
 
 
 

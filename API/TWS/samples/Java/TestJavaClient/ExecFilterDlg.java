@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package TestJavaClient;
+package API.TWS.samples.Java.TestJavaClient;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
@@ -16,7 +16,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-import com.ib.client.ExecutionFilter;
+import API.TWS.source.JavaClient.com.ib.client.ExecutionFilter;
 
 public class ExecFilterDlg extends JDialog {
 

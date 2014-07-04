@@ -1,8 +1,10 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package com.ib.controller;
+package API.TWS.source.JavaClient.com.ib.controller;
 
+
+import API.TWS.source.JavaClient.com.ib.controller.Types;
 
 public enum NewTickType {
 	BID_SIZE,
@@ -66,7 +68,7 @@ public enum NewTickType {
 	RT_HISTORICAL_VOL;
 
 	public static NewTickType get( int ordinal) {
-		return Types.getEnum( ordinal, values() );
+		return Types.getEnum(ordinal, values());
 	}
 
     public static String getField( int ordinal) {

@@ -1,7 +1,9 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package com.ib.client;
+package API.TWS.source.JavaClient.com.ib.client;
+
+import API.TWS.source.JavaClient.com.ib.client.*;
 
 import java.text.DateFormat;
 import java.util.Date;
@@ -12,7 +14,7 @@ public class EWrapperMsgGenerator extends AnyWrapperMsgGenerator {
     public static final String FINANCIAL_ADVISOR = "FA:";
     
 	static public String tickPrice( int tickerId, int field, double price, int canAutoExecute) {
-    	return "id=" + tickerId + "  " + TickType.getField( field) + "=" + price + " " + 
+    	return "id=" + tickerId + "  " + TickType.getField(field) + "=" + price + " " +
         ((canAutoExecute != 0) ? " canAutoExecute" : " noAutoExecute");
     }
 	

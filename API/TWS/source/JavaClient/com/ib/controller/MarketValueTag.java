@@ -1,7 +1,9 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package com.ib.controller;
+package API.TWS.source.JavaClient.com.ib.controller;
+
+import API.TWS.source.JavaClient.com.ib.controller.Types;
 
 public enum MarketValueTag {
 	NetLiquidationByCurrency,
@@ -26,7 +28,7 @@ public enum MarketValueTag {
 	FxCashBalance;
 
 	public static MarketValueTag get( int i) {
-		return Types.getEnum( i, values() );
+		return Types.getEnum(i, values());
 	}
 
 	@Override public String toString() {

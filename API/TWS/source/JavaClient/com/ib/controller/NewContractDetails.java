@@ -1,14 +1,15 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package com.ib.controller;
+package API.TWS.source.JavaClient.com.ib.controller;
 
-import static com.ib.controller.NewContract.add;
+import static API.TWS.source.JavaClient.com.ib.controller.NewContract.add;
 
 import java.util.Vector;
 
-import com.ib.client.ContractDetails;
-import com.ib.client.TagValue;
+import API.TWS.source.JavaClient.com.ib.client.ContractDetails;
+import API.TWS.source.JavaClient.com.ib.client.TagValue;
+import API.TWS.source.JavaClient.com.ib.controller.NewContract;
 
 public class NewContractDetails {
 	private NewContract m_contract;

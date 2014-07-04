@@ -1,10 +1,10 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package apidemo;
+package API.TWS.samples.Java.apidemo;
 
-import static com.ib.controller.Formats.fmtNz;
-import static com.ib.controller.Formats.fmtPct;
+import static API.TWS.source.JavaClient.com.ib.controller.Formats.fmtNz;
+import static API.TWS.source.JavaClient.com.ib.controller.Formats.fmtPct;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -25,22 +25,22 @@ import javax.swing.Timer;
 import javax.swing.border.TitledBorder;
 import javax.swing.table.AbstractTableModel;
 
-import apidemo.util.HtmlButton;
-import apidemo.util.NewTabbedPanel;
-import apidemo.util.NewTabbedPanel.NewTabPanel;
-import apidemo.util.TCombo;
-import apidemo.util.UpperField;
-import apidemo.util.Util;
-import apidemo.util.VerticalPanel;
+import API.TWS.samples.Java.apidemo.util.HtmlButton;
+import API.TWS.samples.Java.apidemo.util.NewTabbedPanel;
+import API.TWS.samples.Java.apidemo.util.NewTabbedPanel.NewTabPanel;
+import API.TWS.samples.Java.apidemo.util.TCombo;
+import API.TWS.samples.Java.apidemo.util.UpperField;
+import API.TWS.samples.Java.apidemo.util.Util;
+import API.TWS.samples.Java.apidemo.util.VerticalPanel;
 
-import com.ib.controller.ApiController.IContractDetailsHandler;
-import com.ib.controller.ApiController.IOptHandler;
-import com.ib.controller.ApiController.TopMktDataAdapter;
-import com.ib.controller.NewContract;
-import com.ib.controller.NewContractDetails;
-import com.ib.controller.NewTickType;
-import com.ib.controller.Types.Right;
-import com.ib.controller.Types.SecType;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.IContractDetailsHandler;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.IOptHandler;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.TopMktDataAdapter;
+import API.TWS.source.JavaClient.com.ib.controller.NewContract;
+import API.TWS.source.JavaClient.com.ib.controller.NewContractDetails;
+import API.TWS.source.JavaClient.com.ib.controller.NewTickType;
+import API.TWS.source.JavaClient.com.ib.controller.Types.Right;
+import API.TWS.source.JavaClient.com.ib.controller.Types.SecType;
 
 public class OptionChainsPanel extends JPanel {
 	private NewContract m_underContract = new NewContract();

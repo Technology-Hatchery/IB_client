@@ -1,17 +1,18 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package com.ib.controller;
+package API.TWS.source.JavaClient.com.ib.controller;
 
-import com.ib.client.ComboLeg;
-import com.ib.controller.Types.Action;
+import API.TWS.source.JavaClient.com.ib.client.ComboLeg;
+import API.TWS.source.JavaClient.com.ib.controller.Types;
+import API.TWS.source.JavaClient.com.ib.controller.Types.Action;
 
 public class NewComboLeg {
 	enum OpenClose {
 		Same, Open, Close, Unknown;
 
 		static OpenClose get( int i) {
-			return Types.getEnum( i, values() );
+			return Types.getEnum(i, values());
 		}
 
 		String getApiString() {

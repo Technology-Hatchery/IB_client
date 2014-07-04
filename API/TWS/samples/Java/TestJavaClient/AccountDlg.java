@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package TestJavaClient;
+package API.TWS.samples.Java.TestJavaClient;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -22,8 +22,8 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.table.AbstractTableModel;
 
-import com.ib.client.Contract;
-import com.ib.client.Util;
+import API.TWS.source.JavaClient.com.ib.client.Contract;
+import API.TWS.source.JavaClient.com.ib.client.Util;
 
 public class AccountDlg extends JDialog {
     private JTextField 		m_updateTime = new JTextField();

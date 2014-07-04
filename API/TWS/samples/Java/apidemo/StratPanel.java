@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package apidemo;
+package API.TWS.samples.Java.apidemo;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
@@ -19,20 +19,20 @@ import javax.swing.border.TitledBorder;
 
 
 import apidemo.OrdersPanel.OrdersModel;
-import apidemo.util.HtmlButton;
-import apidemo.util.TCombo;
-import apidemo.util.UpperField;
-import apidemo.util.VerticalPanel.BorderPanel;
-import apidemo.util.VerticalPanel.HorzPanel;
-import apidemo.util.VerticalPanel.StackPanel;
+import API.TWS.samples.Java.apidemo.util.HtmlButton;
+import API.TWS.samples.Java.apidemo.util.TCombo;
+import API.TWS.samples.Java.apidemo.util.UpperField;
+import API.TWS.samples.Java.apidemo.util.VerticalPanel.BorderPanel;
+import API.TWS.samples.Java.apidemo.util.VerticalPanel.HorzPanel;
+import API.TWS.samples.Java.apidemo.util.VerticalPanel.StackPanel;
 
-import com.ib.controller.Bar;
-import com.ib.controller.NewContract;
-import com.ib.controller.ApiController.IHistoricalDataHandler;
-import com.ib.controller.ApiController.IRealTimeBarHandler;
-import com.ib.controller.Types.BarSize;
-import com.ib.controller.Types.DurationUnit;
-import com.ib.controller.Types.WhatToShow;
+import API.TWS.source.JavaClient.com.ib.controller.Bar;
+import API.TWS.source.JavaClient.com.ib.controller.NewContract;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.IHistoricalDataHandler;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.IRealTimeBarHandler;
+import API.TWS.source.JavaClient.com.ib.controller.Types.BarSize;
+import API.TWS.source.JavaClient.com.ib.controller.Types.DurationUnit;
+import API.TWS.source.JavaClient.com.ib.controller.Types.WhatToShow;
 
 
 public class StratPanel extends StackPanel implements IHistoricalDataHandler, IRealTimeBarHandler {

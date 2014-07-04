@@ -1,17 +1,17 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package apidemo;
+package API.TWS.samples.Java.apidemo;
 
-import com.ib.client.CommissionReport;
-import com.ib.client.Contract;
-import com.ib.client.ContractDetails;
-import com.ib.client.EClientSocket;
-import com.ib.client.EWrapper;
-import com.ib.client.Execution;
-import com.ib.client.Order;
-import com.ib.client.OrderState;
-import com.ib.client.UnderComp;
+import API.TWS.source.JavaClient.com.ib.client.CommissionReport;
+import API.TWS.source.JavaClient.com.ib.client.Contract;
+import API.TWS.source.JavaClient.com.ib.client.ContractDetails;
+import API.TWS.source.JavaClient.com.ib.client.EClientSocket;
+import API.TWS.source.JavaClient.com.ib.client.EWrapper;
+import API.TWS.source.JavaClient.com.ib.client.Execution;
+import API.TWS.source.JavaClient.com.ib.client.Order;
+import API.TWS.source.JavaClient.com.ib.client.OrderState;
+import API.TWS.source.JavaClient.com.ib.client.UnderComp;
 
 public class Test implements EWrapper {
 	EClientSocket m_s = new EClientSocket(this);

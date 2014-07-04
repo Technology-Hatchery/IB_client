@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package apidemo;
+package API.TWS.samples.Java.apidemo;
 
 import java.awt.BorderLayout;
 import java.awt.Desktop;
@@ -16,17 +16,17 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-import apidemo.util.HtmlButton;
-import apidemo.util.NewTabbedPanel;
-import apidemo.util.NewTabbedPanel.INewTab;
-import apidemo.util.TCombo;
-import apidemo.util.VerticalPanel;
+import API.TWS.samples.Java.apidemo.util.HtmlButton;
+import API.TWS.samples.Java.apidemo.util.NewTabbedPanel;
+import API.TWS.samples.Java.apidemo.util.NewTabbedPanel.INewTab;
+import API.TWS.samples.Java.apidemo.util.TCombo;
+import API.TWS.samples.Java.apidemo.util.VerticalPanel;
 
-import com.ib.controller.ApiController.IContractDetailsHandler;
-import com.ib.controller.ApiController.IFundamentalsHandler;
-import com.ib.controller.NewContract;
-import com.ib.controller.NewContractDetails;
-import com.ib.controller.Types.FundamentalType;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.IContractDetailsHandler;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.IFundamentalsHandler;
+import API.TWS.source.JavaClient.com.ib.controller.NewContract;
+import API.TWS.source.JavaClient.com.ib.controller.NewContractDetails;
+import API.TWS.source.JavaClient.com.ib.controller.Types.FundamentalType;
 
 public class ContractInfoPanel extends JPanel {
 	private final NewContract m_contract = new NewContract();

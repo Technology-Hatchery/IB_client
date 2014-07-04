@@ -1,17 +1,18 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package com.ib.controller;
+package API.TWS.source.JavaClient.com.ib.controller;
 
 import java.util.ArrayList;
 import java.util.Vector;
 
-import com.ib.client.ComboLeg;
-import com.ib.client.Contract;
-import com.ib.client.UnderComp;
-import com.ib.controller.Types.Right;
-import com.ib.controller.Types.SecIdType;
-import com.ib.controller.Types.SecType;
+import API.TWS.source.JavaClient.com.ib.client.ComboLeg;
+import API.TWS.source.JavaClient.com.ib.client.Contract;
+import API.TWS.source.JavaClient.com.ib.client.UnderComp;
+import API.TWS.source.JavaClient.com.ib.controller.NewComboLeg;
+import API.TWS.source.JavaClient.com.ib.controller.Types.Right;
+import API.TWS.source.JavaClient.com.ib.controller.Types.SecIdType;
+import API.TWS.source.JavaClient.com.ib.controller.Types.SecType;
 
 public class NewContract implements Cloneable {
     private int m_conid;

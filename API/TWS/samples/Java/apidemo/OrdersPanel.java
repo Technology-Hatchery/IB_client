@@ -1,7 +1,7 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package apidemo;
+package API.TWS.samples.Java.apidemo;
 
 import java.awt.BorderLayout;
 import java.awt.event.MouseAdapter;
@@ -16,15 +16,15 @@ import javax.swing.border.TitledBorder;
 import javax.swing.table.AbstractTableModel;
 
 
-import apidemo.util.HtmlButton;
-import apidemo.util.VerticalPanel;
+import API.TWS.samples.Java.apidemo.util.HtmlButton;
+import API.TWS.samples.Java.apidemo.util.VerticalPanel;
 
-import com.ib.controller.NewContract;
-import com.ib.controller.NewOrder;
-import com.ib.controller.NewOrderState;
-import com.ib.controller.OrderStatus;
-import com.ib.controller.OrderType;
-import com.ib.controller.ApiController.ILiveOrderHandler;
+import API.TWS.source.JavaClient.com.ib.controller.NewContract;
+import API.TWS.source.JavaClient.com.ib.controller.NewOrder;
+import API.TWS.source.JavaClient.com.ib.controller.NewOrderState;
+import API.TWS.source.JavaClient.com.ib.controller.OrderStatus;
+import API.TWS.source.JavaClient.com.ib.controller.OrderType;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.ILiveOrderHandler;
 
 public class OrdersPanel extends JPanel {
 	private OrdersModel m_model = new OrdersModel();

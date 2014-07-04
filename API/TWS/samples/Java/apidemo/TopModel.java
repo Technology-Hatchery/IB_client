@@ -1,11 +1,11 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package apidemo;
+package API.TWS.samples.Java.apidemo;
 
-import static com.ib.controller.Formats.fmt;
-import static com.ib.controller.Formats.fmtPct;
-import static com.ib.controller.Formats.*;
+import static API.TWS.source.JavaClient.com.ib.controller.Formats.fmt;
+import static API.TWS.source.JavaClient.com.ib.controller.Formats.fmtPct;
+import static API.TWS.source.JavaClient.com.ib.controller.Formats.*;
 
 import java.awt.Color;
 import java.util.ArrayList;
@@ -14,11 +14,11 @@ import javax.swing.JLabel;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableCellRenderer;
 
-import com.ib.controller.ApiController.TopMktDataAdapter;
-import com.ib.controller.Formats;
-import com.ib.controller.NewContract;
-import com.ib.controller.NewTickType;
-import com.ib.controller.Types.MktDataType;
+import API.TWS.source.JavaClient.com.ib.controller.ApiController.TopMktDataAdapter;
+import API.TWS.source.JavaClient.com.ib.controller.Formats;
+import API.TWS.source.JavaClient.com.ib.controller.NewContract;
+import API.TWS.source.JavaClient.com.ib.controller.NewTickType;
+import API.TWS.source.JavaClient.com.ib.controller.Types.MktDataType;
 
 class TopModel extends AbstractTableModel {
 	private ArrayList<TopRow> m_rows = new ArrayList<TopRow>();

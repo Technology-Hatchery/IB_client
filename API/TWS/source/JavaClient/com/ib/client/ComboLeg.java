@@ -1,7 +1,9 @@
 /* Copyright (C) 2013 Interactive Brokers LLC. All rights reserved.  This code is subject to the terms
  * and conditions of the IB API Non-Commercial License or the IB API Commercial License, as applicable. */
 
-package com.ib.client;
+package API.TWS.source.JavaClient.com.ib.client;
+
+import API.TWS.source.JavaClient.com.ib.client.Util;
 
 public class ComboLeg {
     public final static int 	SAME = 0; 	// open/close leg value is same as combo
