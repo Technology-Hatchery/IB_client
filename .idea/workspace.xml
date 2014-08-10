@@ -656,7 +656,7 @@
       <workItem from="1404472276321" duration="1729000" />
       <workItem from="1407712994953" duration="790000" />
       <workItem from="1407713797186" duration="100000" />
-      <workItem from="1407713922071" duration="431000" />
+      <workItem from="1407713922071" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="Testing out IntelliJ">
       <created>1404479946468</created>
@@ -674,11 +674,15 @@
       <created>1407714036371</created>
       <updated>1407714036371</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit">
+      <created>1407714362271</created>
+      <updated>1407714362271</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5648000" />
+    <option name="totallyTimeSpent" value="5846000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
