@@ -1,0 +1,12 @@
+<org.technologyhatchery.datasource.Person>
+    <firstname>Joe</firstname>
+    <lastname>Walnes</lastname>
+    <phone>
+        <code>123</code>
+        <number>1234-456</number>
+    </phone>
+    <fax>
+        <code>123</code>
+        <number>9999-999</number>
+    </fax>
+</org.technologyhatchery.datasource.Person>
