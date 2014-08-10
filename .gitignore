@@ -2,6 +2,8 @@
 ### Java template
 *.class
 
+# Exluded Files
+
 # Data files
 sec/
 
