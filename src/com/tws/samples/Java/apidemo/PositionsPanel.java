@@ -20,14 +20,14 @@ import com.tws.samples.Java.apidemo.util.NewTabbedPanel.NewTabPanel;
 
 import com.ib.controller.Formats;
 import com.ib.controller.NewContract;
-import com.ib.controller.ApiController.IPositionHandler;
+import com.ib.interfaces.IPositionHandler;
 
 
 public class PositionsPanel extends NewTabPanel {
 	private PositionModel m_model = new PositionModel();
 	private boolean m_complete;
 
-	PositionsPanel() {
+	public PositionsPanel() {
 		HtmlButton sub = new HtmlButton( "Subscribe") {
 			protected void actionPerformed() {
 				subscribe();

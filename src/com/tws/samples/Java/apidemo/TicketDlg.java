@@ -29,7 +29,7 @@ import com.tws.samples.Java.apidemo.util.VerticalPanel.HorzPanel;
 import com.tws.samples.Java.apidemo.util.VerticalPanel.StackPanel;
 
 import com.ib.client.TagValue;
-import com.ib.controller.ApiController.IOrderHandler;
+import com.ib.interfaces.IOrderHandler;
 import com.ib.controller.NewContract;
 import com.ib.controller.NewOrder;
 import com.ib.controller.NewOrderState;

@@ -12,15 +12,14 @@ import java.util.StringTokenizer;
 import com.ib.client.CommissionReport;
 import com.ib.client.Contract;
 import com.ib.client.ContractDetails;
-import com.ib.client.EWrapper;
+import com.ib.interfaces.EWrapper;
 import com.ib.client.Execution;
 import com.ib.client.ExecutionFilter;
 import com.ib.client.Order;
 import com.ib.client.OrderState;
 import com.ib.client.ScannerSubscription;
 import com.ib.client.UnderComp;
-import com.ib.controller.*;
-import com.ib.controller.ApiConnection.ILogger;
+import com.ib.interfaces.ILogger;
 import com.ib.controller.Types.BarSize;
 import com.ib.controller.Types.DeepSide;
 import com.ib.controller.Types.DeepType;
@@ -31,6 +30,7 @@ import com.ib.controller.Types.FundamentalType;
 import com.ib.controller.Types.MktDataType;
 import com.ib.controller.Types.NewsType;
 import com.ib.controller.Types.WhatToShow;
+import com.ib.interfaces.*;
 
 public class ApiController implements EWrapper {
 	private ApiConnection m_client;
@@ -61,16 +61,8 @@ public class ApiController implements EWrapper {
 	private final ConcurrentHashSet<IAccountHandler> m_accountHandlers = new ConcurrentHashSet<IAccountHandler>();
 	private final ConcurrentHashSet<ILiveOrderHandler> m_liveOrderHandlers = new ConcurrentHashSet<ILiveOrderHandler>();
 
-	// ---------------------------------------- Constructor and Connection handling ----------------------------------------
-	public interface IConnectionHandler {
-		void connected();
-		void disconnected();
-		void accountList(ArrayList<String> list);
-		void error(Exception e);
-		void message(int id, int errorCode, String errorMsg);
-		void show(String string);
-	}
 
+    // ---------------------------------------- Constructor and Connection handling ----------------------------------------
 	public ApiController( IConnectionHandler handler, ILogger inLogger, ILogger outLogger) {
 		m_connectionHandler = handler;
 		m_client = new ApiConnection( this, inLogger, outLogger);
@@ -139,13 +131,6 @@ public class ApiController implements EWrapper {
 
 
 	// ---------------------------------------- Account and portfolio updates ----------------------------------------
-	public interface IAccountHandler {
-		public void accountValue(String account, String key, String value, String currency);
-		public void accountTime(String timeStamp);
-		public void accountDownloadEnd(String account);
-		public void updatePortfolio(Position position);
-	}
-
     public void reqAccountUpdates(boolean subscribe, String acctCode, IAccountHandler handler) {
     	m_accountHandlers.add( handler);
     	m_client.reqAccountUpdates(subscribe, acctCode);
@@ -189,16 +174,6 @@ public class ApiController implements EWrapper {
 	}
 
 	// ---------------------------------------- Account Summary handling ----------------------------------------
-	public interface IAccountSummaryHandler {
-		void accountSummary( String account, AccountSummaryTag tag, String value, String currency);
-		void accountSummaryEnd();
-	}
-
-	public interface IMarketValueSummaryHandler {
-		void marketValueSummary( String account, MarketValueTag tag, String value, String currency);
-		void marketValueSummaryEnd();
-	}
-
 	/** @param group pass "All" to get data for all accounts */
 	public void reqAccountSummary(String group, AccountSummaryTag[] tags, IAccountSummaryHandler handler) {
 		StringBuilder sb = new StringBuilder();
@@ -271,11 +246,6 @@ public class ApiController implements EWrapper {
 	}
 
 	// ---------------------------------------- Position handling ----------------------------------------
-	public interface IPositionHandler {
-		void position( String account, NewContract contract, int position, double avgCost);
-		void positionEnd();
-	}
-
 	public void reqPositions( IPositionHandler handler) {
 		m_positionHandlers.add( handler);
 		m_client.reqPositions();
@@ -304,10 +274,6 @@ public class ApiController implements EWrapper {
 	}
 
 	// ---------------------------------------- Contract Details ----------------------------------------
-	public interface IContractDetailsHandler {
-		void contractDetails(ArrayList<NewContractDetails> list);
-	}
-
 	public void reqContractDetails( NewContract contract, final IContractDetailsHandler processor) {
 		final ArrayList<NewContractDetails> list = new ArrayList<NewContractDetails>();
 		internalReqContractDetails( contract, new IInternalHandler() {
@@ -319,11 +285,6 @@ public class ApiController implements EWrapper {
 			}
 		});
 		sendEOM();
-	}
-
-	private interface IInternalHandler {
-		void contractDetails(NewContractDetails data);
-		void contractDetailsEnd();
 	}
 
 	private void internalReqContractDetails( NewContract contract, IInternalHandler processor) {
@@ -367,22 +328,6 @@ public class ApiController implements EWrapper {
 	}
 
 	// ---------------------------------------- Top Market Data handling ----------------------------------------
-	public interface ITopMktDataHandler {
-		void tickPrice(NewTickType tickType, double price, int canAutoExecute);
-		void tickSize(NewTickType tickType, int size);
-		void tickString(NewTickType tickType, String value);
-		void tickSnapshotEnd();
-		void marketDataType(MktDataType marketDataType);
-	}
-
-	public interface IEfpHandler extends ITopMktDataHandler {
-		void tickEFP(int tickType, double basisPoints, String formattedBasisPoints, double impliedFuture, int holdDays, String futureExpiry, double dividendImpact, double dividendsToExpiry);
-	}
-
-	public interface IOptHandler extends ITopMktDataHandler {
-		void tickOptionComputation( NewTickType tickType, double impliedVol, double delta, double optPrice, double pvDividend, double gamma, double vega, double theta, double undPrice);
-	}
-
 	public static class TopMktDataAdapter implements ITopMktDataHandler {
 		@Override public void tickPrice(NewTickType tickType, double price, int canAutoExecute) {
 		}
@@ -503,10 +448,6 @@ public class ApiController implements EWrapper {
 
 
 	// ---------------------------------------- Deep Market Data handling ----------------------------------------
-	public interface IDeepMktDataHandler {
-		void updateMktDepth(int position, String marketMaker, DeepType operation, DeepSide side, double price, int size);
-	}
-
     public void reqDeepMktData( NewContract contract, int numRows, IDeepMktDataHandler handler) {
     	int reqId = m_reqId++;
     	m_deepMktDataMap.put( reqId, handler);
@@ -574,12 +515,6 @@ public class ApiController implements EWrapper {
 
 
 	// ---------------------------------------- Trade reports ----------------------------------------
-	public interface ITradeReportHandler {
-		void tradeReport(String tradeKey, NewContract contract, Execution execution);
-		void tradeReportEnd();
-		void commissionReport(String tradeKey, CommissionReport commissionReport);
-	}
-
     public void reqExecutions( ExecutionFilter filter, ITradeReportHandler handler) {
     	m_tradeReportHandler = handler;
     	m_client.reqExecutions( m_reqId++, filter);
@@ -612,12 +547,6 @@ public class ApiController implements EWrapper {
 	}
 
 	// ---------------------------------------- Advisor info ----------------------------------------
-	public interface IAdvisorHandler {
-		void groups(ArrayList<Group> groups);
-		void profiles(ArrayList<Profile> profiles);
-		void aliases(ArrayList<Alias> aliases);
-	}
-
 	public void reqAdvisorData( FADataType type, IAdvisorHandler handler) {
 		m_advisorHandler = handler;
 		m_client.requestFA( type.ordinal() );
@@ -661,11 +590,6 @@ public class ApiController implements EWrapper {
 	}
 
 	// ---------------------------------------- Trading and Option Exercise ----------------------------------------
-	public interface IOrderHandler {
-		void orderState(NewOrderState orderState);
-		void handle(int errorCode, String errorMsg);
-	}
-
 	public void placeOrModifyOrder(NewContract contract, final NewOrder order, final IOrderHandler handler) {
 		// when placing new order, assign new order id
 		if (order.orderId() == 0) {
@@ -700,13 +624,6 @@ public class ApiController implements EWrapper {
 
 
 	// ---------------------------------------- Live order handling ----------------------------------------
-	public interface ILiveOrderHandler {
-		void openOrder(NewContract contract, NewOrder order, NewOrderState orderState);
-		void openOrderEnd();
-		void orderStatus(int orderId, OrderStatus status, int filled, int remaining, double avgFillPrice, long permId, int parentId, double lastFillPrice, int clientId, String whyHeld);
-		void handle(int orderId, int errorCode, String errorMsg);  // add permId?
-	}
-
 	public void reqLiveOrders( ILiveOrderHandler handler) {
 		m_liveOrderHandlers.add( handler);
 		m_client.reqAllOpenOrders();
@@ -761,12 +678,6 @@ public class ApiController implements EWrapper {
 
 
 	// ---------------------------------------- Market Scanners ----------------------------------------
-	public interface IScannerHandler {
-		void scannerParameters(String xml);
-		void scannerData( int rank, NewContractDetails contractDetails, String legsStr);
-		void scannerDataEnd();
-	}
-
 	public void reqScannerParameters( IScannerHandler handler) {
 		m_scannerHandler = handler;
 		m_client.reqScannerParameters();
@@ -811,11 +722,6 @@ public class ApiController implements EWrapper {
 
 
 	// ----------------------------------------- Historical data handling ----------------------------------------
-	public interface IHistoricalDataHandler {
-		void historicalData(Bar bar, boolean hasGaps);
-		void historicalDataEnd();
-	}
-
 	/** @param endDateTime format is YYYYMMDD HH:MM:SS [TMZ]
 	 *  @param duration is number of durationUnits */
     public void reqHistoricalData( NewContract contract, String endDateTime, int duration, DurationUnit durationUnit, BarSize barSize, WhatToShow whatToShow, boolean rthOnly, IHistoricalDataHandler handler) {
@@ -860,10 +766,6 @@ public class ApiController implements EWrapper {
 
 
 	//----------------------------------------- Real-time bars --------------------------------------
-	public interface IRealTimeBarHandler {
-		void realtimeBar(Bar bar); // time is in seconds since epoch
-	}
-
     public void reqRealTimeBars(NewContract contract, WhatToShow whatToShow, boolean rthOnly, IRealTimeBarHandler handler) {
     	int reqId = m_reqId++;
     	m_realTimeBarMap.put( reqId, handler);
@@ -890,10 +792,6 @@ public class ApiController implements EWrapper {
 
 
     // ----------------------------------------- Fundamentals handling ----------------------------------------
-	public interface IFundamentalsHandler {
-		void fundamentals( String str);
-	}
-
     public void reqFundamentals( NewContract contract, FundamentalType reportType, IFundamentalsHandler handler) {
     	int reqId = m_reqId++;
     	m_fundMap.put( reqId, handler);
@@ -911,10 +809,6 @@ public class ApiController implements EWrapper {
 
 
 	// ---------------------------------------- Time handling ----------------------------------------
-	public interface ITimeHandler {
-		void currentTime(long time);
-	}
-
 	public void reqCurrentTime( ITimeHandler handler) {
 		m_timeHandler = handler;
 		m_client.reqCurrentTime();
@@ -928,10 +822,6 @@ public class ApiController implements EWrapper {
 
 
 	// ---------------------------------------- Bulletins handling ----------------------------------------
-	public interface IBulletinHandler {
-		void bulletin(int msgId, NewsType newsType, String message, String exchange);
-	}
-
 	public void reqBulletins( boolean allMessages, IBulletinHandler handler) {
 		m_bulletinHandler = handler;
 		m_client.reqNewsBulletins( allMessages);

@@ -38,8 +38,8 @@ import com.ib.controller.NewContract;
 import com.ib.controller.NewContractDetails;
 import com.ib.controller.NewOrder;
 import com.ib.controller.NewOrderState;
-import com.ib.controller.ApiController.IContractDetailsHandler;
-import com.ib.controller.ApiController.IEfpHandler;
+import com.ib.interfaces.IContractDetailsHandler;
+import com.ib.interfaces.IEfpHandler;
 import com.ib.controller.Types.Action;
 import com.ib.controller.Types.SecType;
 
@@ -51,7 +51,7 @@ public class ComboPanel extends JPanel implements INewTab {
 		}
 	};
 	
-	ComboPanel() {
+	public ComboPanel() {
 		NewTabbedPanel tabs = new NewTabbedPanel();
 		tabs.addTab( "Spreads", new SpreadsPanel() );
 		tabs.addTab( "EFP's", new EfpPanel() );

@@ -24,13 +24,13 @@ import com.ib.controller.NewOrder;
 import com.ib.controller.NewOrderState;
 import com.ib.controller.OrderStatus;
 import com.ib.controller.OrderType;
-import com.ib.controller.ApiController.ILiveOrderHandler;
+import com.ib.interfaces.ILiveOrderHandler;
 
 public class OrdersPanel extends JPanel {
 	private OrdersModel m_model = new OrdersModel();
 	private JTable m_table = new JTable( m_model);
 
-	OrdersPanel() {
+	public OrdersPanel() {
 		JScrollPane scroll = new JScrollPane( m_table);
 		scroll.setBorder( new TitledBorder( "Live Orders"));
 		

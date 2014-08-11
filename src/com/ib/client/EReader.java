@@ -3,8 +3,7 @@
 
 package com.ib.client;
 
-import com.ib.client.Order;
-import com.ib.client.Util;
+import com.ib.interfaces.EWrapper;
 
 import java.io.DataInputStream;
 import java.io.IOException;

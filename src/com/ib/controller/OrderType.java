@@ -3,7 +3,7 @@
 
 package com.ib.controller;
 
-import com.ib.client.IApiEnum;
+import com.ib.interfaces.IApiEnum;
 
 
 public enum OrderType implements IApiEnum {

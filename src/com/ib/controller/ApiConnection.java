@@ -13,26 +13,21 @@ import java.io.OutputStream;
 import java.lang.reflect.Field;
 import java.net.Socket;
 
-import com.ib.client.AnyWrapper;
+import com.ib.interfaces.AnyWrapper;
 import com.ib.client.Builder;
 import com.ib.client.EClientErrors;
 import com.ib.client.EClientSocket;
 import com.ib.client.EReader;
 import com.ib.client.TagValue;
-import com.ib.controller.NewComboLeg;
-import com.ib.controller.NewContract;
-import com.ib.controller.NewOrder;
-import com.ib.controller.OrderType;
 import com.ib.controller.Types.AlgoStrategy;
 import com.ib.controller.Types.HedgeType;
 import com.ib.controller.Types.SecType;
+import com.ib.interfaces.ILogger;
 
 // NOTE: TWS 936 SERVER_VERSION is 67.
 
 public class ApiConnection extends EClientSocket {
-	public interface ILogger {
-		void log(String valueOf);
-	}
+
 
 	public static final char EOL = 0;
 	public static final char LOG_EOL = '_';

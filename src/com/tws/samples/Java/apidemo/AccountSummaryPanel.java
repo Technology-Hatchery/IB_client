@@ -18,14 +18,14 @@ import com.tws.samples.Java.apidemo.util.NewTabbedPanel.NewTabPanel;
 import com.tws.samples.Java.apidemo.util.VerticalPanel;
 
 import com.ib.controller.AccountSummaryTag;
-import com.ib.controller.ApiController.IAccountSummaryHandler;
+import com.ib.interfaces.IAccountSummaryHandler;
 import com.ib.controller.Formats;
 
 
 public class AccountSummaryPanel extends NewTabPanel {
 	private SummaryModel m_model = new SummaryModel();
 	
-	AccountSummaryPanel() {
+	public AccountSummaryPanel() {
 		HtmlButton sub = new HtmlButton( "Subscribe") {
 			protected void actionPerformed() {
 				subscribe();

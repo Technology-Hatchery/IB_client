@@ -3,6 +3,8 @@
 
 package com.ib.client;
 
+import com.ib.interfaces.IApiEnum;
+
 /** This class is used to build messages so the entire message can be
  *  sent to the socket in a single write. */
 public class Builder {

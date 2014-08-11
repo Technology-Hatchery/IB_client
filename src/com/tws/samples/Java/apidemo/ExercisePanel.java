@@ -23,7 +23,7 @@ import com.tws.samples.Java.apidemo.util.NewTabbedPanel.INewTab;
 import com.tws.samples.Java.apidemo.util.VerticalPanel.HorzPanel;
 
 import com.ib.controller.Position;
-import com.ib.controller.ApiController.IAccountHandler;
+import com.ib.interfaces.IAccountHandler;
 import com.ib.controller.Types.ExerciseType;
 import com.ib.controller.Types.SecType;
 
@@ -35,7 +35,7 @@ public class ExercisePanel extends HorzPanel implements INewTab, IAccountHandler
 	private PortfolioModel m_portfolioModel = new PortfolioModel();
 	private JTable m_portTable = new JTable( m_portfolioModel);
 	
-	ExercisePanel() {
+	public ExercisePanel() {
 		JScrollPane acctsScroll = new JScrollPane( m_accounts);
 		acctsScroll.setBorder( new TitledBorder( "Select account"));
 		

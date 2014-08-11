@@ -21,14 +21,14 @@ import com.ib.client.CommissionReport;
 import com.ib.client.Execution;
 import com.ib.client.ExecutionFilter;
 import com.ib.controller.NewContract;
-import com.ib.controller.ApiController.ITradeReportHandler;
+import com.ib.interfaces.ITradeReportHandler;
 
 public class TradesPanel extends JPanel implements ITradeReportHandler {
 	private ArrayList<FullExec> m_trades = new ArrayList<FullExec>();
 	private HashMap<String,FullExec> m_map = new HashMap<String,FullExec>();
 	private Model m_model = new Model();
 	
-	TradesPanel() {
+	public TradesPanel() {
 		JTable table = new JTable( m_model);
 		JScrollPane scroll = new JScrollPane( table);
 		scroll.setBorder( new TitledBorder( "Trade Log"));

@@ -31,7 +31,7 @@ import com.tws.samples.Java.apidemo.util.NewTabbedPanel.INewTab;
 
 import com.ib.controller.MarketValueTag;
 import com.ib.controller.Position;
-import com.ib.controller.ApiController.IAccountHandler;
+import com.ib.interfaces.IAccountHandler;
 import com.ib.controller.Types.SecType;
 
 public class AccountInfoPanel extends JPanel implements INewTab, IAccountHandler {
@@ -46,7 +46,7 @@ public class AccountInfoPanel extends JPanel implements INewTab, IAccountHandler
 	private JTable m_mktValTable = new Table( m_mktValModel, 2);
 	private JLabel m_lastUpdated = new JLabel();
 
-	AccountInfoPanel() {
+	public AccountInfoPanel() {
 		m_lastUpdated.setHorizontalAlignment( SwingConstants.RIGHT);
 		
 		m_accounts.setPreferredSize( new Dimension( 10000, 100) );

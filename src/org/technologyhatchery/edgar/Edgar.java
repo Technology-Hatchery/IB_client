@@ -120,7 +120,6 @@ public class Edgar {
                     return;
                 }
 
-
                 url = new URL(item.itemsMap.get("enclosure"));
                 //con = (HttpsURLConnection) url.openConnection();
                 con = url.openConnection();

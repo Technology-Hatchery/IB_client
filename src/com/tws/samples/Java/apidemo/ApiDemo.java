@@ -19,16 +19,13 @@ import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
 import javax.swing.border.EmptyBorder;
 
-import com.tws.samples.Java.apidemo.util.HtmlButton;
-import com.tws.samples.Java.apidemo.util.NewLookAndFeel;
-import com.tws.samples.Java.apidemo.util.NewTabbedPanel;
-import com.tws.samples.Java.apidemo.util.VerticalPanel;
+import com.tws.samples.Java.apidemo.util.*;
 
-import com.ib.controller.ApiConnection.ILogger;
+import com.ib.interfaces.ILogger;
 import com.ib.controller.ApiController;
-import com.ib.controller.ApiController.IBulletinHandler;
-import com.ib.controller.ApiController.IConnectionHandler;
-import com.ib.controller.ApiController.ITimeHandler;
+import com.ib.interfaces.IBulletinHandler;
+import com.ib.interfaces.IConnectionHandler;
+import com.ib.interfaces.ITimeHandler;
 import com.ib.controller.Formats;
 import com.ib.controller.Types.NewsType;
 
@@ -201,25 +198,7 @@ public class ApiDemo implements IConnectionHandler {
 			m_controller.connect( m_host.getText(), port, clientId);
 		}
 	}
-	
-	private static class Logger implements ILogger {
-		final private JTextArea m_area;
 
-		Logger( JTextArea area) {
-			m_area = area;
-		}
-
-		@Override public void log(final String str) {
-			SwingUtilities.invokeLater( new Runnable() {
-				@Override public void run() {
-//					m_area.append(str);
-//					
-//					Dimension d = m_area.getSize();
-//					m_area.scrollRectToVisible( new Rectangle( 0, d.height, 1, 1) );
-				}
-			});
-		}
-	}
 }
 
 // do clearing support

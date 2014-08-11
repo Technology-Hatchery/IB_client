@@ -15,13 +15,13 @@ import com.tws.samples.Java.apidemo.util.HtmlButton;
 import com.tws.samples.Java.apidemo.util.VerticalPanel;
 import com.tws.samples.Java.apidemo.util.NewTabbedPanel.NewTabPanel;
 
-import com.ib.controller.ApiController.IMarketValueSummaryHandler;
+import com.ib.interfaces.IMarketValueSummaryHandler;
 import com.ib.controller.MarketValueTag;
 
 public class MarketValueSummaryPanel extends NewTabPanel implements IMarketValueSummaryHandler {
 	private MktValModel m_model = new MktValModel();
 
-	MarketValueSummaryPanel() {
+	public MarketValueSummaryPanel() {
 		HtmlButton sub = new HtmlButton( "Subscribe") {
 			protected void actionPerformed() {
 				subscribe();

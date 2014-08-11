@@ -23,7 +23,7 @@ import static com.ib.controller.Types.AlgoParam.giveUp;
 import static com.ib.controller.Types.AlgoParam.catchUp;
 import static com.ib.controller.Types.AlgoParam.waitForFill;
 
-import com.ib.client.IApiEnum;
+import com.ib.interfaces.IApiEnum;
 
 public class Types {
 	public static enum ComboParam {

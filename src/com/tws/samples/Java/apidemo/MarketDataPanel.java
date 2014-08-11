@@ -37,10 +37,10 @@ import com.ib.controller.Instrument;
 import com.ib.controller.NewContract;
 import com.ib.controller.NewContractDetails;
 import com.ib.controller.ScanCode;
-import com.ib.controller.ApiController.IDeepMktDataHandler;
-import com.ib.controller.ApiController.IHistoricalDataHandler;
-import com.ib.controller.ApiController.IRealTimeBarHandler;
-import com.ib.controller.ApiController.IScannerHandler;
+import com.ib.interfaces.IDeepMktDataHandler;
+import com.ib.interfaces.IHistoricalDataHandler;
+import com.ib.interfaces.IRealTimeBarHandler;
+import com.ib.interfaces.IScannerHandler;
 import com.ib.controller.Types.BarSize;
 import com.ib.controller.Types.DeepSide;
 import com.ib.controller.Types.DeepType;
@@ -54,7 +54,7 @@ public class MarketDataPanel extends JPanel {
 	private final NewTabbedPanel m_resultsPanel = new NewTabbedPanel();
 	private TopResultsPanel m_topResultPanel;
 	
-	MarketDataPanel() {
+	public MarketDataPanel() {
 		m_requestPanel.addTab( "Top Market Data", new TopRequestPanel() );
 		m_requestPanel.addTab( "Deep Book", new DeepRequestPanel() );
 		m_requestPanel.addTab( "Historical Data", new HistRequestPanel() );

@@ -3,7 +3,7 @@
 
 package com.ib.client;
 
-import com.ib.client.*;
+import com.ib.interfaces.AnyWrapper;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

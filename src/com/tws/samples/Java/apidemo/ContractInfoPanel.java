@@ -22,8 +22,8 @@ import com.tws.samples.Java.apidemo.util.NewTabbedPanel.INewTab;
 import com.tws.samples.Java.apidemo.util.TCombo;
 import com.tws.samples.Java.apidemo.util.VerticalPanel;
 
-import com.ib.controller.ApiController.IContractDetailsHandler;
-import com.ib.controller.ApiController.IFundamentalsHandler;
+import com.ib.interfaces.IContractDetailsHandler;
+import com.ib.interfaces.IFundamentalsHandler;
 import com.ib.controller.NewContract;
 import com.ib.controller.NewContractDetails;
 import com.ib.controller.Types.FundamentalType;
@@ -33,7 +33,7 @@ public class ContractInfoPanel extends JPanel {
 	private final NewTabbedPanel m_requestPanels = new NewTabbedPanel();
 	private final NewTabbedPanel m_resultsPanels = new NewTabbedPanel();
 	
-	ContractInfoPanel() {
+	public ContractInfoPanel() {
 		m_requestPanels.addTab( "Contract details", new DetailsRequestPanel() );
 		m_requestPanels.addTab( "Fundamentals", new FundaRequestPanel() );
 		

@@ -293,7 +293,7 @@ class PortfolioTable extends AbstractTableModel {
     }
 }
 
-package protected class AcctValueModel extends AbstractTableModel {
+class AcctValueModel extends AbstractTableModel {
     Vector<AccountTableRow> m_allData = new Vector<AccountTableRow>();
 
     void updateAccountValue(String key, String val, String currency, String accountName) {

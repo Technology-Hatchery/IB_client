@@ -19,7 +19,7 @@ import com.ib.controller.NewContract;
 class ContractDlg extends JDialog {
 	ContractPanel m_contractPanel;
     
-    ContractDlg( JFrame f, NewContract c) {
+    public ContractDlg( JFrame f, NewContract c) {
     	super( f, true);
     	
     	m_contractPanel = new ContractPanel( c);

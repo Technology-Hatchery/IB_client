@@ -14,7 +14,7 @@ public class TradingPanel extends NewTabPanel {
 	private final OrdersPanel m_ordersPanel = new OrdersPanel();
 	private final TradesPanel m_tradesPanel = new TradesPanel();
 	
-	TradingPanel() {
+	public TradingPanel() {
 		m_ordersPanel.setPreferredSize( new Dimension( 1, 10000));
 		m_tradesPanel.setPreferredSize( new Dimension( 1, 10000));
 		

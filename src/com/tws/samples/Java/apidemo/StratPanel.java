@@ -28,8 +28,8 @@ import com.tws.samples.Java.apidemo.util.VerticalPanel.StackPanel;
 
 import com.ib.controller.Bar;
 import com.ib.controller.NewContract;
-import com.ib.controller.ApiController.IHistoricalDataHandler;
-import com.ib.controller.ApiController.IRealTimeBarHandler;
+import com.ib.interfaces.IHistoricalDataHandler;
+import com.ib.interfaces.IRealTimeBarHandler;
 import com.ib.controller.Types.BarSize;
 import com.ib.controller.Types.DurationUnit;
 import com.ib.controller.Types.WhatToShow;
@@ -50,7 +50,7 @@ public class StratPanel extends StackPanel implements IHistoricalDataHandler, IR
 	
 	private static Component sp(int n) { return Box.createHorizontalStrut(n); }
 
-	StratPanel() {
+	public StratPanel() {
 		m_contractPanel.setBorder( new TitledBorder( "Define Contract"));
 		
 		JPanel p1 = new HPanel();

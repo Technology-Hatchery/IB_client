@@ -9,7 +9,7 @@ public class OptionsPanel extends NewTabbedPanel {
 	private final OptionChainsPanel m_optionChains = new OptionChainsPanel();
 	private final ExercisePanel m_exercisePanel = new ExercisePanel();
 	
-	OptionsPanel() {
+	public OptionsPanel() {
 		NewTabbedPanel tabs = this;
 		tabs.addTab( "Option Chains", m_optionChains);
 		tabs.addTab( "Option Exercise", m_exercisePanel);

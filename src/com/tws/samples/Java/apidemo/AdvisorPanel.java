@@ -29,7 +29,7 @@ import com.tws.samples.Java.apidemo.util.NewTabbedPanel.NewTabPanel;
 import com.ib.controller.Alias;
 import com.ib.controller.Group;
 import com.ib.controller.Profile;
-import com.ib.controller.ApiController.IAdvisorHandler;
+import com.ib.interfaces.IAdvisorHandler;
 import com.ib.controller.Profile.Type;
 import com.ib.controller.Types.FADataType;
 import com.ib.controller.Types.Method;
@@ -58,7 +58,7 @@ public class AdvisorPanel extends NewTabPanel implements IAdvisorHandler {
 
 	private final JTable m_aliasTable = new JTable( m_aliasModel);
 
-	AdvisorPanel() {
+	public AdvisorPanel() {
 		JPanel mainPanel = new JPanel();
 		mainPanel.setLayout( new BoxLayout( mainPanel, BoxLayout.Y_AXIS));
 		mainPanel.setBorder( new EmptyBorder( 0, 10, 0, 0) );

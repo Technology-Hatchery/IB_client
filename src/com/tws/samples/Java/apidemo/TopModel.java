@@ -103,7 +103,7 @@ class TopModel extends AbstractTableModel {
 		int m_volume;
 		boolean m_frozen;
 		
-		TopRow( AbstractTableModel model, String description) {
+		public TopRow( AbstractTableModel model, String description) {
 			m_model = model;
 			m_description = description;
 		}

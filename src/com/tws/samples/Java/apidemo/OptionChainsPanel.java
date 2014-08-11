@@ -33,8 +33,8 @@ import com.tws.samples.Java.apidemo.util.UpperField;
 import com.tws.samples.Java.apidemo.util.Util;
 import com.tws.samples.Java.apidemo.util.VerticalPanel;
 
-import com.ib.controller.ApiController.IContractDetailsHandler;
-import com.ib.controller.ApiController.IOptHandler;
+import com.ib.interfaces.IContractDetailsHandler;
+import com.ib.interfaces.IOptHandler;
 import com.ib.controller.ApiController.TopMktDataAdapter;
 import com.ib.controller.NewContract;
 import com.ib.controller.NewContractDetails;
@@ -52,7 +52,7 @@ public class OptionChainsPanel extends JPanel {
 	private UpperField m_currency = new UpperField();
 	private JCheckBox m_snapshot = new JCheckBox();
 
-	OptionChainsPanel() {
+	public OptionChainsPanel() {
 		m_symbol.setText( "IBM");
 		m_secType.setSelectedItem( SecType.STK);
 		m_exchange.setText( "SMART"); 
