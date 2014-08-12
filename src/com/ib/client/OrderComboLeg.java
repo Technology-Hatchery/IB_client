@@ -17,17 +17,16 @@ public class OrderComboLeg {
     }
 
     public boolean equals(Object p_other) {
-        if ( this == p_other ) {
+        if (this == p_other) {
             return true;
-        }
-        else if ( p_other == null ) {
+        } else if (p_other == null) {
             return false;
         }
 
-        OrderComboLeg l_theOther = (OrderComboLeg)p_other;
+        OrderComboLeg l_theOther = (OrderComboLeg) p_other;
 
         if (m_price != l_theOther.m_price) {
-        	return false;
+            return false;
         }
 
         return true;

@@ -4,20 +4,20 @@
 package com.ib.controller;
 
 public enum OrderStatus {
-	ApiPending,
-	ApiCancelled,
-	PreSubmitted,
-	PendingCancel,
-	Cancelled,
-	Submitted,
-	Filled,
-	Inactive,
-	PendingSubmit,
-	Unknown;
+    ApiPending,
+    ApiCancelled,
+    PreSubmitted,
+    PendingCancel,
+    Cancelled,
+    Submitted,
+    Filled,
+    Inactive,
+    PendingSubmit,
+    Unknown;
 
-	public boolean isActive() {
-		return this == PreSubmitted || this == PendingCancel || this == Submitted || this == PendingSubmit;
-	}
+    public boolean isActive() {
+        return this == PreSubmitted || this == PendingCancel || this == Submitted || this == PendingSubmit;
+    }
 }
 
 

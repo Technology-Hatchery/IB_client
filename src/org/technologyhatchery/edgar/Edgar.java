@@ -8,6 +8,7 @@ import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
 import com.thoughtworks.xstream.XStream;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -38,7 +39,9 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
+
 import org.technologyhatchery.utilities.*;
+
 /**
  * Created by Alfred on 8/6/2014.
  */
@@ -69,7 +72,7 @@ public class Edgar {
         return "http://www.sec.gov/Archives/edgar/monthly/xbrlrss-" + year + "-" + month + ".xml";
     }
 
-    /***
+    /**
      * Checks whether RSS feed is up to date
      *
      * @param year
@@ -81,7 +84,7 @@ public class Edgar {
         return true;
     }
 
-    /***
+    /**
      * Download the enclosures contained in the given RSS
      *
      * @param year
@@ -111,7 +114,7 @@ public class Edgar {
             try {
                 zipFile = item.itemsMap.get("enclosure");
                 if (zipFile != null) {
-                    zipFile = zipFile.substring(zipFile.lastIndexOf("/")+1, zipFile.length()).trim();
+                    zipFile = zipFile.substring(zipFile.lastIndexOf("/") + 1, zipFile.length()).trim();
                     if (checkExistingFile(target + "\\sec\\" + yearStr + "\\" + monthStr + "\\" + zipFile)) {
                         System.out.println("Enclosure " + zipFile + " already exists.");
                         continue;
@@ -135,17 +138,16 @@ public class Edgar {
         for (String key : rss.infoMap.keySet()) {
             System.out.println(key + ": " + rss.infoMap.get(key));
         }*/
-   }
+    }
 
-    /***
-     *
+    /**
      * @param year
      * @param month
      * @param target
      */
     public RSS importRSS(int year, int month, String target) {
         String monthStr = ("0" + String.valueOf(month));
-        monthStr = monthStr.substring(monthStr.length()-2,monthStr.length());   //Get last two characters of string
+        monthStr = monthStr.substring(monthStr.length() - 2, monthStr.length());   //Get last two characters of string
         String yearStr = String.valueOf(year);
 
         String readXml;
@@ -161,7 +163,7 @@ public class Edgar {
 
             //Create class from file
             xstream = new XStream();
-            rss = (RSS)xstream.fromXML(readXml);
+            rss = (RSS) xstream.fromXML(readXml);
             //System.out.println("Year: " + yearStr + " Month: " + monthStr);
             return rss;
         } catch (FileNotFoundException e) {
@@ -173,7 +175,7 @@ public class Edgar {
         }
     }
 
-    /***
+    /**
      * Returns all the enclosures that are stored in XML filings for the given year and month
      *
      * @param year
@@ -182,7 +184,7 @@ public class Edgar {
      */
     public ArrayList<Filing> importEnclosure(int year, int month, String target) {
         String monthStr = ("0" + String.valueOf(month));
-        monthStr = monthStr.substring(monthStr.length()-2,monthStr.length());   //Get last two characters of string
+        monthStr = monthStr.substring(monthStr.length() - 2, monthStr.length());   //Get last two characters of string
         String yearStr = String.valueOf(year);
 
         String readXml;
@@ -193,7 +195,7 @@ public class Edgar {
             File curDir = new File(target + "\\sec\\" + yearStr + "\\" + monthStr);
             File[] filesList = curDir.listFiles();
             for (File f : filesList) {
-                if(f.isDirectory()) {
+                if (f.isDirectory()) {
                     File[] fileSubList = f.listFiles();
                     for (File fSub : fileSubList) {
                         if (fSub.getName().equalsIgnoreCase("filing.xml")) {
@@ -206,13 +208,13 @@ public class Edgar {
 
                             //Create class from file
                             xstream = new XStream();
-                            filing = (Filing)xstream.fromXML(readXml);
+                            filing = (Filing) xstream.fromXML(readXml);
                             filings.add(filing);
                             //System.out.println("Year: " + yearStr + " Month: " + monthStr);
                         }
                     }
                 }
-             }
+            }
         } catch (FileNotFoundException e) {
             //Do nothing
             return null;
@@ -223,7 +225,7 @@ public class Edgar {
         return filings;
     }
 
-    /***
+    /**
      * Imports RSS feed from file
      *
      * @param year
@@ -235,7 +237,7 @@ public class Edgar {
     public RSS convertRSS(int year, int month, String target, String stylesheet) {
         //Import downloaded RSS
         String monthStr = ("0" + String.valueOf(month));
-        monthStr = monthStr.substring(monthStr.length()-2,monthStr.length());   //Get last two characters of string
+        monthStr = monthStr.substring(monthStr.length() - 2, monthStr.length());   //Get last two characters of string
         String yearStr = String.valueOf(year);
 
         if (checkExistingFile(target + "\\sec\\" + yearStr + "\\" + monthStr + "\\" + "rss.xml")) {
@@ -260,7 +262,7 @@ public class Edgar {
             //document = builder.parse(datafile);
 
             // Use a Transformer for output
-            SAXTransformerFactory tFactory = (SAXTransformerFactory)TransformerFactory.newInstance();
+            SAXTransformerFactory tFactory = (SAXTransformerFactory) TransformerFactory.newInstance();
             //TransformerFactory tFactory = TransformerFactory.newInstance();
             //StreamSource stylesource = new StreamSource(stylesheet);
             Source xslt = new StreamSource(new File(stylesheet));
@@ -323,7 +325,7 @@ public class Edgar {
         return rss;
     }
 
-    /***
+    /**
      * Simulates optional parameter.
      *
      * @param year
@@ -334,7 +336,7 @@ public class Edgar {
         sec_download(year, month, target, overwriteOptional);
     }
 
-    /***
+    /**
      * Downloads the RSS feed associated with the given year and month
      * and saves it to a file.
      *
@@ -347,7 +349,7 @@ public class Edgar {
         //Check for existing directories
         checkDirectory(target + "\\sec\\" + year);
         String monthStr = ("0" + String.valueOf(month));
-        monthStr = monthStr.substring(monthStr.length()-2,monthStr.length());   //Get last two characters of string
+        monthStr = monthStr.substring(monthStr.length() - 2, monthStr.length());   //Get last two characters of string
         String yearStr = String.valueOf(year);
         checkDirectory(target + "\\sec\\" + yearStr + "\\" + monthStr);
 
@@ -368,20 +370,18 @@ public class Edgar {
             writer.close();
             //Util.copyStream(stream, writer);
 
-        }
-        catch (MalformedURLException e) {
+        } catch (MalformedURLException e) {
             // new URL() failed
             // ...
 
-        }
-        catch (IOException e) {
+        } catch (IOException e) {
             // openConnection() failed
             // ...
 
         }
     }
 
-    /***
+    /**
      * Checks whether the given directory exists.  It creates it if it does not.
      *
      * @param target
@@ -393,8 +393,7 @@ public class Edgar {
             //Files.createDirectories(path.getParent());
             try {
                 Files.createDirectory(path, new FileAttribute<?>[0]);
-            }
-            catch(IOException ex) {
+            } catch (IOException ex) {
                 System.err.println("Could not create new directory");
             }
             return false;
@@ -402,7 +401,7 @@ public class Edgar {
         return true;
     }
 
-    /***
+    /**
      * Checks for existing file
      *
      * @param target
@@ -413,7 +412,7 @@ public class Edgar {
         return file.exists() && !file.isDirectory();
     }
 
-    /***
+    /**
      * Extracts the zip files.
      *
      * @param target
@@ -433,7 +432,7 @@ public class Edgar {
             //    System.out.println(f.getName());
             if (f.isFile()) {
                 if (FilenameUtils.getExtension(f.getPath()).equalsIgnoreCase("zip")) {
-                    extractDirectory = target + "\\sec\\" + yearStr + "\\" + monthStr + "\\" + f.getName().substring(0,f.getName().length()-4);
+                    extractDirectory = target + "\\sec\\" + yearStr + "\\" + monthStr + "\\" + f.getName().substring(0, f.getName().length() - 4);
                     extractDirectory = "O:\\TntDrive\\" + extractDirectory.substring(3);
                     if (!checkDirectory(extractDirectory)) {
                         unZip.unZipIt(f.getPath(), extractDirectory);
@@ -444,7 +443,7 @@ public class Edgar {
         }
     }
 
-    /***
+    /**
      * Converts the extracted enclosures to class Filing xml files using XSLT
      *
      * @param year
@@ -468,54 +467,54 @@ public class Edgar {
             if (!f.isFile()) {
                 curSubDir = new File(f.getPath());
                 filesSubList = curSubDir.listFiles();
-                    for (File fSub : filesSubList) {
-                        if (FilenameUtils.getExtension(fSub.getPath()).equalsIgnoreCase("xml")) {
-                            if (!fSub.getName().equals("defnref.xml") && !fSub.getName().equals("filing.xml")) {
-                                if (!fSub.getName().contains("_")) {
-                                    try {
-                                        FileInputStream inputStream = new FileInputStream(fSub.getPath());
-                                        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-                                        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-                                        Document document = dBuilder.parse(inputStream);
+                for (File fSub : filesSubList) {
+                    if (FilenameUtils.getExtension(fSub.getPath()).equalsIgnoreCase("xml")) {
+                        if (!fSub.getName().equals("defnref.xml") && !fSub.getName().equals("filing.xml")) {
+                            if (!fSub.getName().contains("_")) {
+                                try {
+                                    FileInputStream inputStream = new FileInputStream(fSub.getPath());
+                                    DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+                                    DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+                                    Document document = dBuilder.parse(inputStream);
 
-                                        //Apply XSLT template
-                                        dbFactory.setNamespaceAware(true);
-                                        dbFactory.setValidating(true);
+                                    //Apply XSLT template
+                                    dbFactory.setNamespaceAware(true);
+                                    dbFactory.setValidating(true);
 
-                                        // Use a Transformer for output
-                                        SAXTransformerFactory tFactory = (SAXTransformerFactory)TransformerFactory.newInstance();
-                                        //TransformerFactory tFactory = TransformerFactory.newInstance();
-                                        //StreamSource stylesource = new StreamSource(stylesheet);
-                                        Source xslt = new StreamSource(new File(stylesheet));
-                                        Transformer transformer = tFactory.newTransformer(xslt);
+                                    // Use a Transformer for output
+                                    SAXTransformerFactory tFactory = (SAXTransformerFactory) TransformerFactory.newInstance();
+                                    //TransformerFactory tFactory = TransformerFactory.newInstance();
+                                    //StreamSource stylesource = new StreamSource(stylesheet);
+                                    Source xslt = new StreamSource(new File(stylesheet));
+                                    Transformer transformer = tFactory.newTransformer(xslt);
 
-                                        DOMSource source = new DOMSource(document);
-                                        PrintWriter writer = new PrintWriter(f.getPath() + "\\filing.xml", "UTF-8");
-                                        //writer.println(urlString);
-                                        StreamResult result = new StreamResult(writer);
-                                        transformer.transform(source, result);
-                                        writer.close();
-                                    } catch (IOException e) {
-                                        //Do nothing
-                                    } catch (ParserConfigurationException e) {
-                                        //Do nothing
-                                    } catch (SAXException e) {
-                                        //Do nothing
-                                    } catch (TransformerConfigurationException e) {
-                                        //Do nothing
-                                    } catch (TransformerException e) {
-                                        //Do nothing
-                                    }
+                                    DOMSource source = new DOMSource(document);
+                                    PrintWriter writer = new PrintWriter(f.getPath() + "\\filing.xml", "UTF-8");
+                                    //writer.println(urlString);
+                                    StreamResult result = new StreamResult(writer);
+                                    transformer.transform(source, result);
+                                    writer.close();
+                                } catch (IOException e) {
+                                    //Do nothing
+                                } catch (ParserConfigurationException e) {
+                                    //Do nothing
+                                } catch (SAXException e) {
+                                    //Do nothing
+                                } catch (TransformerConfigurationException e) {
+                                    //Do nothing
+                                } catch (TransformerException e) {
+                                    //Do nothing
                                 }
                             }
                         }
                     }
+                }
                 //System.out.println(f.getName());
             }
         }
     }
 
-    /***
+    /**
      * Saves the given class to an XML file using XStream
      *
      * @param obj
@@ -523,19 +522,19 @@ public class Edgar {
      */
     public void saveToFile(Object obj, String target) {
 
-            XStream xstream = new XStream();
-            try {
-                String writeXml = xstream.toXML(obj);
-                xstream = new XStream();
-                PrintWriter writer = new PrintWriter(target, "UTF-8");
-                writer.println(writeXml);
-                //System.out.println(writeXml);
-                writer.close();
-            } catch (UnsupportedEncodingException e) {
-                //Do nothing
-            } catch (FileNotFoundException e) {
-                //Do nothing
-            }
+        XStream xstream = new XStream();
+        try {
+            String writeXml = xstream.toXML(obj);
+            xstream = new XStream();
+            PrintWriter writer = new PrintWriter(target, "UTF-8");
+            writer.println(writeXml);
+            //System.out.println(writeXml);
+            writer.close();
+        } catch (UnsupportedEncodingException e) {
+            //Do nothing
+        } catch (FileNotFoundException e) {
+            //Do nothing
+        }
 
     }
 }

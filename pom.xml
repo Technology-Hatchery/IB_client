@@ -17,6 +17,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.google.apis</groupId>
+            <artifactId>google-api-services-datastore-protobuf</artifactId>
+            <version>v1beta2-rev1-2.1.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.technologyhatchery</groupId>
             <artifactId>technologyhatchery-core</artifactId>
             <version>0.8</version>

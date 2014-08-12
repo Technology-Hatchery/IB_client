@@ -6,15 +6,16 @@ package com.tws.samples.Java.apidemo.util;
 import javax.swing.JComboBox;
 
 public class TCombo<T> extends JComboBox {
-	public TCombo( T... strs) {
-		super( strs);
-	}
+    public TCombo(T... strs) {
+        super(strs);
+    }
 
-	public String getText() {
-		return getSelectedItem() == null ? null : getSelectedItem().toString();
-	}
-	
-	@Override public T getSelectedItem() {
-		return (T)super.getSelectedItem();
-	}
+    public String getText() {
+        return getSelectedItem() == null ? null : getSelectedItem().toString();
+    }
+
+    @Override
+    public T getSelectedItem() {
+        return (T) super.getSelectedItem();
+    }
 }

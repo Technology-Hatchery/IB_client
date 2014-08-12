@@ -25,7 +25,7 @@ import java.util.ArrayList;
  */
 public class ReadXml {
 
-    public static void main (String [] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         //String filePath;
         Edgar edgar = new Edgar();
 
@@ -34,12 +34,11 @@ public class ReadXml {
         String stylesheetRss = "C:\\Users\\Alfred\\Dropbox\\Technology Hatchery Inc\\technical\\Git\\IB_client\\transform\\rss_feed.xsl";
         String stylesheetFiling = "C:\\Users\\Alfred\\Dropbox\\Technology Hatchery Inc\\technical\\Git\\IB_client\\transform\\filing.xsl";
         for (int year = 2013; year < 2015; year++) {
-        //for (int year = 2005; year < 2015; year++) {
+            //for (int year = 2005; year < 2015; year++) {
             for (int month = 1; month < 13; month++) {
-                if (year==2005 && month<4) {
+                if (year == 2005 && month < 4) {
                     continue;
-                }
-                else if (year==2014 && month>7) {
+                } else if (year == 2014 && month > 7) {
                     continue;
                 } else {
                     //Download RSS feed (from internet)

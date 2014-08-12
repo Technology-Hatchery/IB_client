@@ -71,10 +71,6 @@ public class Filing {
     }
 
 
-
-
-
-
     private HashMap<String, Float> processUSGAAP(Document doc) {
         String xbrliUri = "http://www.xbrl.org/2003/instance";
         //NodeList nItems = doc.getElementsByTagNameNS("xbrli","xbrl");
@@ -23678,7 +23674,7 @@ public class Filing {
     }
 
 
-    private static void processRSS (Document doc){
+    private static void processRSS(Document doc) {
 
         NodeList nItems = doc.getElementsByTagName("item");
         System.out.println("----------------------------");

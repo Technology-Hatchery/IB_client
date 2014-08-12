@@ -1,76 +1,236 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73351182-f666-4b5c-bd2c-b2af6bfa6c91" name="Default" comment="Initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/technologyhatchery/ib/Connect.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IAccountHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IAccountSummaryHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IAdvisorHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IBulletinHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IConnectionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IContractDetailsHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IDeepMktDataHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IEfpHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IFundamentalsHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IHistoricalDataHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IInternalHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/ILiveOrderHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/ILogger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IMarketValueSummaryHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IOptHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IOrderHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IPositionHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IRealTimeBarHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IScannerHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/ITimeHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/ITopMktDataHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/ITradeReportHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/Logger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/datanucleus-plugin.xml" />
-      <change type="DELETED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\org\technologyhatchery\items\Book.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\org\technologyhatchery\items\Inventory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\org\technologyhatchery\items\Product.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\org\technologyhatchery\samples\datasources\LoadData.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\org\technologyhatchery\servlets\AppEngineServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\org\technologyhatchery\servlets\HelloWorldServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\org\technologyhatchery\servlets\SimpleServlet.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\ib\client\AnyWrapper.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/AnyWrapper.java" />
-      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\ib\client\EWrapper.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/EWrapper.java" />
-      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\ib\client\IApiEnum.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IApiEnum.java" />
+    <list default="true" id="73351182-f666-4b5c-bd2c-b2af6bfa6c91" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/method/AbstractOptimizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/AdvisorTicketPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/AlgoPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/AliasModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/BarModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/BarResultsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/view/CartesianCoordinateSystem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/ChainModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ChainPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/ChainRow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/model/ColorClass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ComboContractPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ComboPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ComboTicketPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ConnectionPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ContractInfoPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/DeepModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/DeepRequestPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/DeepResultsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/DeepRow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/DetailsRequestPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/DetailsResultsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/model/DirtyLineEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/DnPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/EfpModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/EfpPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/EfpRow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ExPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/FullExec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/FundaRequestPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/FundaResultPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/method/GradientDescent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/GroupModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/GroupsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/HPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/HistRequestPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/Key.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/model/LabeledPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/LegModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/LegRow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/model/Line.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/MarginModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/MarginRow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/MarginRowKey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/MarketDataPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_api_client_google_api_client_1_15_0_rc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_apis_google_api_services_datastore_protobuf_v1beta2_rev1_2_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_1_15_0_rc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_jackson_1_15_0_rc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_http_client_google_http_client_protobuf_1_15_0_rc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_15_0_rc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_1_1_4c.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/MenuState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/MiscTicketPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/MktValModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/MktValRow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/Model.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/method/NewtonMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/model/NormalVector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/Optimizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/OptimizerCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/OptionChainsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/OrderPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/OrderRow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/OrdersModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/PortfolioModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/PositionKey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/PositionModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/PositionRow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/PositionsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/ProfileModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/ProfilesPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/QueryLength.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/RealtimeRequestPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ScalePanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ScannerRequestPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ScannerResultsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/SpreadsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/method/SubGradientDescent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/SummaryModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/SummaryRow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/vrallev/android/svm/method/SvmArgument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/Table.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/TopRequestPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/TopResultsPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/TopRow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/TopTable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/VolatilityTicketPanel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/latest.jnlp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
+      <change type="DELETED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\ComboPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\ContractInfoPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\MarketDataPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\OptionChainsPanel.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\PositionsPanel.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\AccountInfoPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/AccountInfoPanel.java" />
+      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\AccountSummaryPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/AccountSummaryPanel.java" />
+      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\AdvisorPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/AdvisorPanel.java" />
+      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\ContractPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ContractPanel.java" />
+      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\ExercisePanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ExercisePanel.java" />
+      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\MarketValueSummaryPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/MarketValueSummaryPanel.java" />
+      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\OptionsPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/OptionsPanel.java" />
+      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\OrdersPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/OrdersPanel.java" />
+      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\StratPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/StratPanel.java" />
+      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\TopModel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/TopModel.java" />
+      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\TradesPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/TradesPanel.java" />
+      <change type="MOVED" beforePath="C:\Users\Alfred\Dropbox\Technology Hatchery Inc\technical\Git\IB_client\src\com\tws\samples\Java\apidemo\TradingPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/TradingPanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/AccountDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/AccountDlg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/AccountInfoPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/AccountInfoPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/AccountSummaryPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/AccountSummaryPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/AdvisorPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/AdvisorPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/AccountSummary.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/AccountSummary.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/AccountSummaryTag.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/AccountSummaryTag.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/AcctUpdatesDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/AcctUpdatesDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/AdvisorUtil.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/AdvisorUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/AlgoParamsDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/AlgoParamsDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/Alias.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/Alias.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/AnyWrapper.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/AnyWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/AnyWrapperMsgGenerator.java" afterPath="$PROJECT_DIR$/src/com/ib/client/AnyWrapperMsgGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/ApiConnection.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/ApiConnection.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/ApiController.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/ApiController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ApiDemo.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ApiDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/Bar.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/Bar.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/Builder.java" afterPath="$PROJECT_DIR$/src/com/ib/client/Builder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ComboPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ComboPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/Chart.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/Chart.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/contracts/ComboContract.java" afterPath="$PROJECT_DIR$/src/com/ib/contracts/ComboContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/ComboLeg.java" afterPath="$PROJECT_DIR$/src/com/ib/client/ComboLeg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/ComboLegDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/ComboLegDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/CommissionReport.java" afterPath="$PROJECT_DIR$/src/com/ib/client/CommissionReport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/ConcurrentHashSet.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/ConcurrentHashSet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/ConnectDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/ConnectDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/Contract.java" afterPath="$PROJECT_DIR$/src/com/ib/client/Contract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/ContractDetails.java" afterPath="$PROJECT_DIR$/src/com/ib/client/ContractDetails.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ContractDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ContractDlg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ContractInfoPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ContractInfoPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ContractPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ContractPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/samples/dnhedge/DNHedgeOrder.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/samples/dnhedge/DNHedgeOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/DeltaNeutralContract.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/DeltaNeutralContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/EClientErrors.java" afterPath="$PROJECT_DIR$/src/com/ib/client/EClientErrors.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/EClientSocket.java" afterPath="$PROJECT_DIR$/src/com/ib/client/EClientSocket.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/EReader.java" afterPath="$PROJECT_DIR$/src/com/ib/client/EReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/EWrapper.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/EWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/EWrapperMsgGenerator.java" afterPath="$PROJECT_DIR$/src/com/ib/client/EWrapperMsgGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/technologyhatchery/edgar/Edgar.java" afterPath="$PROJECT_DIR$/src/org/technologyhatchery/edgar/Edgar.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ExercisePanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ExercisePanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/ExecFilterDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/ExecFilterDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/Execution.java" afterPath="$PROJECT_DIR$/src/com/ib/client/Execution.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/ExecutionFilter.java" afterPath="$PROJECT_DIR$/src/com/ib/client/ExecutionFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/ExtOrdDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/ExtOrdDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/FAAllocationInfoDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/FAAllocationInfoDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/technologyhatchery/edgar/Filing.java" afterPath="$PROJECT_DIR$/src/org/technologyhatchery/edgar/Filing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/FinancialAdvisorDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/FinancialAdvisorDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/Formats.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/Formats.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/contracts/FutContract.java" afterPath="$PROJECT_DIR$/src/com/ib/contracts/FutContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/Group.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/Group.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/HtmlButton.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/HtmlButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IAccountHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IAccountHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IAccountSummaryHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IAccountSummaryHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IAdvisorHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IAdvisorHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IApiEnum.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IApiEnum.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/IBGridBagPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/IBGridBagPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/IBTextPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/IBTextPanel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IB_client.iml" afterPath="$PROJECT_DIR$/IB_client.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/MarketDataPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/MarketDataPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/MarketValueSummaryPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/MarketValueSummaryPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OptionChainsPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OptionChainsPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OptionsPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OptionsPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IConnectionHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IConnectionHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IFundamentalsHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IFundamentalsHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IHistoricalDataHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IHistoricalDataHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IInternalHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IInternalHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/ILiveOrderHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/ILiveOrderHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IMarketValueSummaryHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IMarketValueSummaryHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IOptHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IOptHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IOrderHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IOrderHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IPositionHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IPositionHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IRealTimeBarHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IRealTimeBarHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/IScannerHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/IScannerHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/ITopMktDataHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/ITopMktDataHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/interfaces/ITradeReportHandler.java" afterPath="$PROJECT_DIR$/src/com/ib/interfaces/ITradeReportHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/Instrument.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/Instrument.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/LogConfigDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/LogConfigDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/Logger.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/Logger.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/Main.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/MarketDataType.java" afterPath="$PROJECT_DIR$/src/com/ib/client/MarketDataType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/MarketValueTag.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/MarketValueTag.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/MktDepthDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/MktDepthDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/NewComboLeg.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/NewComboLeg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/NewContract.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/NewContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/NewContractDetails.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/NewContractDetails.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/NewLookAndFeel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/NewLookAndFeel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/NewOrder.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/NewOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/NewOrderState.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/NewOrderState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/NewTabbedPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/NewTabbedPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/NewTickType.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/NewTickType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/NewsBulletinDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/NewsBulletinDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/contracts/OptContract.java" afterPath="$PROJECT_DIR$/src/com/ib/contracts/OptContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/Order.java" afterPath="$PROJECT_DIR$/src/com/ib/client/Order.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/OrderComboLeg.java" afterPath="$PROJECT_DIR$/src/com/ib/client/OrderComboLeg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/OrderDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/OrderDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/OrderState.java" afterPath="$PROJECT_DIR$/src/com/ib/client/OrderState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/OrderStatus.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/OrderStatus.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/OrderType.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/OrderType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OrdersPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OrdersPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/PositionsPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/PositionsPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/Position.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/Position.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/Profile.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/Profile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/technologyhatchery/edgar/RSS.java" afterPath="$PROJECT_DIR$/src/org/technologyhatchery/edgar/RSS.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/technologyhatchery/edgar/ReadXml.java" afterPath="$PROJECT_DIR$/src/org/technologyhatchery/edgar/ReadXml.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/samples/rfq/RfqOrder.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/samples/rfq/RfqOrder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/samples/dnhedge/SampleDNHedge.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/samples/dnhedge/SampleDNHedge.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/SampleFrame.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/SampleFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/samples/rfq/SampleRfq.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/samples/rfq/SampleRfq.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/ScanCode.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/ScanCode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/ScannerDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/ScannerDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/ScannerSubscription.java" afterPath="$PROJECT_DIR$/src/com/ib/client/ScannerSubscription.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/samples/rfq/SimpleWrapper.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/samples/rfq/SimpleWrapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/StratPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/StratPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/SmartComboRoutingParamsDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/SmartComboRoutingParamsDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/contracts/StkContract.java" afterPath="$PROJECT_DIR$/src/com/ib/contracts/StkContract.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/TCombo.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/TCombo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/TagValue.java" afterPath="$PROJECT_DIR$/src/com/ib/client/TagValue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/Test.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/TickType.java" afterPath="$PROJECT_DIR$/src/com/ib/client/TickType.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TicketDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TicketDlg.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TopModel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TopModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TradesPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TradesPanel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TradingPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TradingPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/TradeId.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/TradeId.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/controller/Types.java" afterPath="$PROJECT_DIR$/src/com/ib/controller/Types.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/UnderComp.java" afterPath="$PROJECT_DIR$/src/com/ib/client/UnderComp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/UnderCompDlg.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/UnderCompDlg.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/UpperField.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/UpperField.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ib/client/Util.java" afterPath="$PROJECT_DIR$/src/com/ib/client/Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/Util.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/VerticalPanel.java" afterPath="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/VerticalPanel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IB_client.iws" />
@@ -88,115 +248,111 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="IB_client" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="HistRequestPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/HistRequestPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="1620">
+              <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RealtimeRequestPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/RealtimeRequestPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="940" max-vertical-offset="1180">
+              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComboContractPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ComboContractPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="860">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpreadsPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/SpreadsPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="3940">
+              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeepRequestPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/DeepRequestPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="920">
+              <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopRequestPanel.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/TopRequestPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.14173229" vertical-offset="256" max-vertical-offset="840">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContractPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ContractPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="640" max-vertical-offset="1940">
+              <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ib/controller/ApiController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="15520" max-vertical-offset="18780">
+              <caret line="776" column="16" selection-start-line="776" selection-start-column="16" selection-end-line="776" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="MarketDataPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/MarketDataPanel.java">
+        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/MarketDataPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="10740">
-              <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1280" max-vertical-offset="1660">
+              <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MarketValueSummaryPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/MarketValueSummaryPanel.java">
+      <file leaf-file-name="NewContract.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ib/controller/NewContract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="1380">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OptionChainsPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OptionChainsPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="5940">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#3252#3401#0" expanded="true" />
-                <element signature="e#3396#3397#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApiDemo.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ApiDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.09398496" vertical-offset="1875" max-vertical-offset="5140">
-              <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrdersPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OrdersPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="5040">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Connect.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/technologyhatchery/ib/Connect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="5260">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1373#1381#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PositionsPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/PositionsPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="3120">
-              <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StratPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/StratPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="327" max-vertical-offset="4000">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TicketDlg.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TicketDlg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="12320">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TradesPanel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TradesPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="2520">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3080" max-vertical-offset="6380">
+              <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -215,58 +371,65 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/org/technologyhatchery/edgar/Edgar.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/TestJavaClient/AccountDlg.java" />
-        <option value="$PROJECT_DIR$/src/org/technologyhatchery/edgar/ReadXml.java" />
-        <option value="$PROJECT_DIR$/src/org/technologyhatchery/ib/connect.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interface/IConnectionHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IConnectionHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IAccountSummaryHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IAdvisorHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IBulletinHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IContractDetailsHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IDeepMktDataHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IEfpHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IFundamentalsHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IHistoricalDataHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/ILiveOrderHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IMarketValueSummaryHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IOptHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IOrderHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IPositionHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IScannerHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/ITimeHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/ITopMktDataHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/ITradeReportHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IRealTimeBarHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/interfaces/IInternalHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ApiDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/ib/interfaces/ILogger.java" />
-        <option value="$PROJECT_DIR$/src/com/ib/controller/ApiConnection.java" />
-        <option value="$PROJECT_DIR$/src/com/ib/interfaces/AnyWrapper.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/Logger.java" />
-        <option value="$PROJECT_DIR$/src/com/ib/controller/ApiController.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/AccountInfoPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ContractDlg.java" />
         <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ContractPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OptionsPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TopModel.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TradingPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/AccountSummaryPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/AdvisorPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ComboPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/FundaResultPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/FundaRequestPanel.java" />
         <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ContractInfoPanel.java" />
         <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ExercisePanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ExPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ExercisePanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ScannerRequestPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ScannerResultsPanel.java" />
         <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/MarketDataPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/MarketValueSummaryPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/ChainRow.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/ChainModel.java" />
         <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OptionChainsPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OrdersPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ChainPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/OptionChainsPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/PositionKey.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/PositionRow.java" />
         <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/PositionsPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/PositionModel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/HPanel.java" />
         <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/StratPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/QueryLength.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/StratPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/AdvisorTicketPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/AlgoPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ComboTicketPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/MiscTicketPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/OrderPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ScalePanel.java" />
         <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TicketDlg.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/VolatilityTicketPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/FullExec.java" />
         <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TradesPanel.java" />
-        <option value="$PROJECT_DIR$/src/org/technologyhatchery/ib/Connect.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/Model.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/DeepModel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/DeepRow.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/DeepResultsPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/DnPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/TopTable.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/TopResultsPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/BarResultsPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/BarModel.java" />
+        <option value="$PROJECT_DIR$/src/com/ib/controller/NewContract.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/MarketDataPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/HistRequestPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ContractPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/RealtimeRequestPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ComboContractPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/SpreadsPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/DeepRequestPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/TopRequestPanel.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -299,9 +462,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="728" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -364,10 +528,6 @@
               <option name="myItemId" value="IB_client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -390,132 +550,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="technologyhatchery" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ib" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="technologyhatchery" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tws" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tws" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tws" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apidemo" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IB_client" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ib" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -537,7 +571,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../google-cloud-datastore" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -561,6 +595,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="474" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="true" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -736,6 +772,9 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -755,9 +794,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -795,10 +831,6 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -818,6 +850,10 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -860,6 +896,16 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
       <option name="BCName" value="" />
       <option name="launcherParameters">
@@ -872,16 +918,6 @@
       </option>
       <option name="moduleName" value="" />
       <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="BatchConfigurationType" factoryName="Batch">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <module name="" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
@@ -1029,7 +1065,12 @@
       <workItem from="1407712994953" duration="790000" />
       <workItem from="1407713797186" duration="100000" />
       <workItem from="1407713922071" duration="4962000" />
-      <workItem from="1407724961839" duration="3942000" />
+      <workItem from="1407724961839" duration="5099000" />
+      <workItem from="1407731030584" duration="2727000" />
+      <workItem from="1407766001717" duration="235000" />
+      <workItem from="1407782241821" duration="8888000" />
+      <workItem from="1407797861950" duration="15918000" />
+      <workItem from="1407862874698" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="Testing out IntelliJ">
       <created>1404479946468</created>
@@ -1051,11 +1092,15 @@
       <created>1407714362271</created>
       <updated>1407714362271</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Re-organizing files">
+      <created>1407728971687</created>
+      <updated>1407728971687</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14121000" />
+    <option name="totallyTimeSpent" value="43075000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1078,36 +1123,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="1382" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40771812" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.406199" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4010067" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2655068" sideWeight="0.21246459" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42973855" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2655068" sideWeight="0.5849673" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283082" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283082" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32550335" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21785174" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22617246" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24357034" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2655068" sideWeight="0.78470254" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32718122" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2655068" sideWeight="0.41503268" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32026145" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32352942" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6143791" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1129,18 +1175,23 @@
     </option>
     <MESSAGE value="Testing out IntelliJ" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Re-organizing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-organizing files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/ib/controller/ApiController.java</url>
-          <line>73</line>
+          <url>file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/EfpPanel.java</url>
+          <line>168</line>
           <properties />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1148,450 +1199,442 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ib/client/Builder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/AdvisorTicketPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="206" max-vertical-offset="940">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/AlgoPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1540">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1365#1522#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ComboTicketPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="406" max-vertical-offset="980">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/MiscTicketPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="3060">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/OrderPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="890" max-vertical-offset="1480">
+          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ScalePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="890" max-vertical-offset="1460">
+          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/VolatilityTicketPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1280">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TicketDlg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="3660">
+          <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/FullExec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/TradesPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1340">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/TradingPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/technologyhatchery/edgar/Edgar.java">
+    <entry file="file://$PROJECT_DIR$/latest.jnlp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2290" max-vertical-offset="10940">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IAccountSummaryHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="380">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IAdvisorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="480">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IBulletinHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="360">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IContractDetailsHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IDeepMktDataHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IEfpHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1180">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IAccountHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IFundamentalsHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IHistoricalDataHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/ILiveOrderHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IMarketValueSummaryHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="380">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IOptHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="380">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="722" max-vertical-offset="1400">
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IOrderHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ib/client/EClientSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="380">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4230" max-vertical-offset="45440">
+          <caret line="235" column="0" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ScannerRequestPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="1020">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IPositionHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/EfpPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="380">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2712" max-vertical-offset="3360">
+          <caret line="168" column="22" selection-start-line="168" selection-start-column="22" selection-end-line="168" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IScannerHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/DeepModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="400">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/ITimeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="320">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/ITopMktDataHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="77" max-vertical-offset="460">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="1620">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#309#318#0" expanded="false" />
+            <element signature="e#366#367#0" expanded="false" />
+            <element signature="e#402#403#0" expanded="false" />
+            <element signature="e#1263#1264#0" expanded="false" />
+            <element signature="e#1287#1288#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/ITradeReportHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/DeepRow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="440">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/DeepResultsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1240">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/DnPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="877" max-vertical-offset="1480">
+          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1907#2700#0" expanded="true" />
+            <element signature="e#2689#2690#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IRealTimeBarHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/TopResultsPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="380">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="1120">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IInternalHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/TopTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="520">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/AnyWrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/VerticalPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/IConnectionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/interfaces/ILogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="280">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="580">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/controller/ApiConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="6620">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ib/controller/ApiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.857143" vertical-offset="560" max-vertical-offset="17140">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2958#2990#0" expanded="true" />
-            <element signature="e#3336#3353#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/AccountInfoPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="836" max-vertical-offset="8600">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#3630#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/Chart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1720">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="1820">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#682#683#0" expanded="true" />
+            <element signature="e#711#712#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_65/src.zip!/javax/swing/JScrollPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5538" max-vertical-offset="29660">
+          <caret line="321" column="38" selection-start-line="321" selection-start-column="38" selection-end-line="321" selection-end-column="38" />
+          <folding>
+            <element signature="e#10955#10956#0" expanded="true" />
+            <element signature="e#11043#11044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_65/src.zip!/javax/swing/JComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30772" max-vertical-offset="107640">
+          <caret line="1653" column="21" selection-start-line="1653" selection-start-column="21" selection-end-line="1653" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_65/src.zip!/java/awt/BorderLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1910" max-vertical-offset="17040">
+          <caret line="123" column="13" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/TCombo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="440">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/resources/BarModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1420">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ContractDlg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="960">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="1040">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_65/src.zip!/javax/swing/text/JTextComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4513" max-vertical-offset="96980">
+          <caret line="302" column="22" selection-start-line="302" selection-start-column="22" selection-end-line="302" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_65/src.zip!/javax/swing/JComboBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="753" max-vertical-offset="45080">
+          <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_65/src.zip!/javax/swing/JPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="573" max-vertical-offset="4100">
+          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_65/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6593" max-vertical-offset="95640">
+          <caret line="408" column="21" selection-start-line="408" selection-start-column="21" selection-end-line="408" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ContractPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/NewTabbedPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="292" max-vertical-offset="1660">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OptionsPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="440">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="116" max-vertical-offset="3000">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TopModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1506" max-vertical-offset="2860">
-          <caret line="102" column="21" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TradingPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="720">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/AccountSummaryPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="2940">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/AdvisorPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="6460">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ComboPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1284" max-vertical-offset="11580">
-          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="453" max-vertical-offset="5920">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5800#6000#0" expanded="true" />
-            <element signature="e#5994#5995#0" expanded="true" />
-            <element signature="e#9747#10365#0" expanded="true" />
-            <element signature="e#10358#10359#0" expanded="true" />
-            <element signature="e#13734#13957#0" expanded="true" />
-            <element signature="e#13951#13952#0" expanded="true" />
+            <element signature="e#1752#1765#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ContractInfoPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ib/controller/Types.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="3580">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="3885" max-vertical-offset="5620">
+          <caret line="259" column="23" selection-start-line="259" selection-start-column="23" selection-end-line="259" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ExercisePanel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/BarResultsPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="2480">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/MarketDataPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="10740">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/MarketValueSummaryPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="47" max-vertical-offset="1380">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OptionChainsPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="5940">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#3252#3401#0" expanded="true" />
-            <element signature="e#3396#3397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/OrdersPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="5040">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/PositionsPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="3120">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/StratPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="327" max-vertical-offset="4000">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TicketDlg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="12320">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/TradesPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="2520">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/technologyhatchery/ib/Connect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="5260">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="381" max-vertical-offset="1760">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1373#1381#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/ApiDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09398496" vertical-offset="1875" max-vertical-offset="5140">
-          <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="685" max-vertical-offset="4140">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2397#2398#0" expanded="false" />
+            <element signature="e#2502#2503#0" expanded="false" />
+            <element signature="e#2532#2533#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/UpperField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1106" max-vertical-offset="1460">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/util/HtmlButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="2340">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding>
+            <element signature="e#2444#2445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ib/client/Contract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="813" max-vertical-offset="2820">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="53" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ib/controller/NewContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2793" max-vertical-offset="6180">
+          <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="154" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/RealtimeRequestPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1000">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ContractPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="1660">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/ComboContractPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="860">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/SpreadsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="3360">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/DeepRequestPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="497" max-vertical-offset="880">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ib/controller/ApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14641" max-vertical-offset="17780">
+          <caret line="776" column="16" selection-start-line="776" selection-start-column="16" selection-end-line="776" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/HistRequestPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1239" max-vertical-offset="1520">
+          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/MarketDataPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="218" max-vertical-offset="740">
+          <caret line="64" column="56" selection-start-line="64" selection-start-column="56" selection-end-line="64" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tws/samples/Java/apidemo/panels/TopRequestPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.14173229" vertical-offset="256" max-vertical-offset="840">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1675,7 +1718,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.google.code.gson:gson:2.2.4</last-edited>
+          <last-edited>lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

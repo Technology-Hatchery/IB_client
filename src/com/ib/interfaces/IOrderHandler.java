@@ -7,6 +7,7 @@ import com.ib.controller.NewOrderState;
  */
 public interface IOrderHandler {
     void orderState(NewOrderState orderState);
+
     void handle(int errorCode, String errorMsg);
 }
 

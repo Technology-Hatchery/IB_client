@@ -7,7 +7,9 @@ import com.ib.controller.NewContractDetails;
  */
 public interface IScannerHandler {
     void scannerParameters(String xml);
-    void scannerData( int rank, NewContractDetails contractDetails, String legsStr);
+
+    void scannerData(int rank, NewContractDetails contractDetails, String legsStr);
+
     void scannerDataEnd();
 }
 

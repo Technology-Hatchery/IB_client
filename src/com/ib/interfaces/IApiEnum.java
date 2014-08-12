@@ -4,5 +4,5 @@
 package com.ib.interfaces;
 
 public interface IApiEnum {
-	String getApiString();
+    String getApiString();
 }

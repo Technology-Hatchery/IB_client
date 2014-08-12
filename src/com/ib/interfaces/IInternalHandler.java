@@ -7,6 +7,7 @@ import com.ib.controller.NewContractDetails;
  */
 public interface IInternalHandler {
     void contractDetails(NewContractDetails data);
+
     void contractDetailsEnd();
 }
 

@@ -11,7 +11,9 @@ import java.util.ArrayList;
  */
 public interface IAdvisorHandler {
     void groups(ArrayList<Group> groups);
+
     void profiles(ArrayList<Profile> profiles);
+
     void aliases(ArrayList<Alias> aliases);
 }
 

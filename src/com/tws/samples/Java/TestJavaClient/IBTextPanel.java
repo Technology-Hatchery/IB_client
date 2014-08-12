@@ -19,16 +19,16 @@ import javax.swing.JTextArea;
 import javax.swing.border.Border;
 
 class IBTextPanel extends JPanel {
-    public static final Color  textBackgroundColor = new Color(5, 5, 5);
-    public static final Color  textForegroundColor = new Color(0, 245, 0);
-    public static final Font   textComponentFont = new JList().getFont();
-    public static final Color  textCaretColor = Color.WHITE;
+    public static final Color textBackgroundColor = new Color(5, 5, 5);
+    public static final Color textForegroundColor = new Color(0, 245, 0);
+    public static final Font textComponentFont = new JList().getFont();
+    public static final Color textCaretColor = Color.WHITE;
     public static final String lineSeparator = System.getProperty("line.separator");
 
     private JTextArea m_textArea = new JTextArea();
     private JScrollPane m_scrollPane = new JScrollPane(m_textArea);
-    private final static String LF = "\n" ;
-    private final static String TAB = "\t" ;
+    private final static String LF = "\n";
+    private final static String TAB = "\t";
     private final static String EIGHT_SPACES = "        ";
     private final static String EMPTY_STRING = "";
 
@@ -39,7 +39,7 @@ class IBTextPanel extends JPanel {
     IBTextPanel(String title, boolean editable) {
         super(new BorderLayout());
         if (title != null) {
-            Border border = BorderFactory.createTitledBorder( title);
+            Border border = BorderFactory.createTitledBorder(title);
             setBorder(border);
         }
         m_textArea.setBackground(textBackgroundColor);

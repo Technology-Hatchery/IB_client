@@ -55,24 +55,24 @@ public class FAAllocationInfoDlg extends JDialog {
         faGroupJPanel.setBorder(titledBorder1);
         faProfileJPanel.setBorder(titledBorder2);
 
-        faGroupJPanel.SetObjectPlacement(m_groupLabel,           0, 0);
-        faGroupJPanel.SetObjectPlacement(m_groupTextField,       1, 0);
-        faGroupJPanel.SetObjectPlacement(m_methodLabel,          0, 1);
-        faGroupJPanel.SetObjectPlacement(m_methodTextField,      1, 1);
-        faGroupJPanel.SetObjectPlacement(m_percentageLabel,      0, 2);
-        faGroupJPanel.SetObjectPlacement(m_percentageTextField,  1, 2);
+        faGroupJPanel.SetObjectPlacement(m_groupLabel, 0, 0);
+        faGroupJPanel.SetObjectPlacement(m_groupTextField, 1, 0);
+        faGroupJPanel.SetObjectPlacement(m_methodLabel, 0, 1);
+        faGroupJPanel.SetObjectPlacement(m_methodTextField, 1, 1);
+        faGroupJPanel.SetObjectPlacement(m_percentageLabel, 0, 2);
+        faGroupJPanel.SetObjectPlacement(m_percentageTextField, 1, 2);
 
-        faProfileJPanel.SetObjectPlacement(m_profileLabel,       0, 0);
-        faProfileJPanel.SetObjectPlacement(m_profileTextField,   1, 0);
+        faProfileJPanel.SetObjectPlacement(m_profileLabel, 0, 0);
+        faProfileJPanel.SetObjectPlacement(m_profileTextField, 1, 0);
 
         mainJPanel.SetObjectPlacement(faProfileJPanel, 0, 0, 4, 1);
-        mainJPanel.SetObjectPlacement(faGroupJPanel,   0, 1, 4, 1);
-        mainJPanel.SetObjectPlacement(m_okButton,      1, 2, 1, 1);
-        mainJPanel.SetObjectPlacement(m_closeButton,   2, 2, 1, 1);
+        mainJPanel.SetObjectPlacement(faGroupJPanel, 0, 1, 4, 1);
+        mainJPanel.SetObjectPlacement(m_okButton, 1, 2, 1, 1);
+        mainJPanel.SetObjectPlacement(m_closeButton, 2, 2, 1, 1);
 
         setTitle("FA Allocation Info");
         getContentPane().add(mainJPanel);
-        setSize( 600, 300);
+        setSize(600, 300);
 
 
         m_okButton.addActionListener(new java.awt.event.ActionListener() {

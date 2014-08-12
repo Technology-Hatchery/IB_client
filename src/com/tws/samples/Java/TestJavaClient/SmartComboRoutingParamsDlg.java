@@ -27,141 +27,141 @@ import com.ib.client.TagValue;
 public class SmartComboRoutingParamsDlg extends JDialog {
     private Order m_order;
 
-    private JTextField 		m_tag = new JTextField( "");
-    private JTextField 		m_value = new JTextField( "");
-    private JButton 		m_addParam = new JButton( "Add");
-    private JButton	 	    m_removeParam = new JButton( "Remove");
-    private JButton 		m_ok = new JButton( "OK");
-    private JButton	 	    m_cancel = new JButton( "Cancel");
+    private JTextField m_tag = new JTextField("");
+    private JTextField m_value = new JTextField("");
+    private JButton m_addParam = new JButton("Add");
+    private JButton m_removeParam = new JButton("Remove");
+    private JButton m_ok = new JButton("OK");
+    private JButton m_cancel = new JButton("Cancel");
 
-    private SmartComboRoutingParamModel 	m_paramModel = new SmartComboRoutingParamModel();
-    private JTable 		    m_paramTable = new JTable(m_paramModel);
-    private JScrollPane 	m_paramPane = new JScrollPane(m_paramTable);
+    private SmartComboRoutingParamModel m_paramModel = new SmartComboRoutingParamModel();
+    private JTable m_paramTable = new JTable(m_paramModel);
+    private JScrollPane m_paramPane = new JScrollPane(m_paramTable);
 
-    public SmartComboRoutingParamModel paramModel() { return m_paramModel; }
+    public SmartComboRoutingParamModel paramModel() {
+        return m_paramModel;
+    }
 
-    public SmartComboRoutingParamsDlg( Order order, JDialog owner) {
-        super( owner, true);
+    public SmartComboRoutingParamsDlg(Order order, JDialog owner) {
+        super(owner, true);
 
         m_order = order;
 
-        setTitle( "Smart Combo Routing Parameters");
+        setTitle("Smart Combo Routing Parameters");
 
         // create smart combo routing params panel
-        JPanel pParamList = new JPanel( new GridLayout( 0, 1, 10, 10) );
-        pParamList.setBorder( BorderFactory.createTitledBorder( "Smart Combo Routing Parameters") );
+        JPanel pParamList = new JPanel(new GridLayout(0, 1, 10, 10));
+        pParamList.setBorder(BorderFactory.createTitledBorder("Smart Combo Routing Parameters"));
 
         Vector<TagValue> smartComboRoutingParams = m_order.m_smartComboRoutingParams;
         if (smartComboRoutingParams != null) {
-        	m_paramModel.smartComboRoutingParams().addAll(smartComboRoutingParams);
+            m_paramModel.smartComboRoutingParams().addAll(smartComboRoutingParams);
         }
-        pParamList.add( m_paramPane);
+        pParamList.add(m_paramPane);
 
         // create add/remove panel
-        JPanel pParamListControl = new JPanel( new GridLayout( 0, 2, 10, 10) );
-        pParamListControl.setBorder( BorderFactory.createTitledBorder( "Add / Remove") );
-        pParamListControl.add( new JLabel( "Param:") );
-        pParamListControl.add( m_tag);
-        pParamListControl.add( new JLabel( "Value:") );
-        pParamListControl.add( m_value);
-        pParamListControl.add( m_addParam);
-        pParamListControl.add( m_removeParam);
+        JPanel pParamListControl = new JPanel(new GridLayout(0, 2, 10, 10));
+        pParamListControl.setBorder(BorderFactory.createTitledBorder("Add / Remove"));
+        pParamListControl.add(new JLabel("Param:"));
+        pParamListControl.add(m_tag);
+        pParamListControl.add(new JLabel("Value:"));
+        pParamListControl.add(m_value);
+        pParamListControl.add(m_addParam);
+        pParamListControl.add(m_removeParam);
 
         // create button panel
         JPanel buttonPanel = new JPanel();
-        buttonPanel.add( m_ok);
-        buttonPanel.add( m_cancel);
+        buttonPanel.add(m_ok);
+        buttonPanel.add(m_cancel);
 
         // create wrapper panel
         JPanel topPanel = new JPanel();
-        topPanel.setLayout( new BoxLayout( topPanel, BoxLayout.Y_AXIS) );
-        topPanel.add( pParamList);
-        topPanel.add( pParamListControl);
+        topPanel.setLayout(new BoxLayout(topPanel, BoxLayout.Y_AXIS));
+        topPanel.add(pParamList);
+        topPanel.add(pParamListControl);
 
         // create dlg box
-        getContentPane().add( topPanel, BorderLayout.CENTER);
-        getContentPane().add( buttonPanel, BorderLayout.SOUTH);
+        getContentPane().add(topPanel, BorderLayout.CENTER);
+        getContentPane().add(buttonPanel, BorderLayout.SOUTH);
 
         // create action listeners
-        m_addParam.addActionListener( new ActionListener() {
-            public void actionPerformed( ActionEvent e) {
+        m_addParam.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
                 onAddParam();
             }
         });
-        m_removeParam.addActionListener( new ActionListener() {
-            public void actionPerformed( ActionEvent e) {
+        m_removeParam.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
                 onRemoveParam();
             }
         });
-        m_ok.addActionListener( new ActionListener() {
-            public void actionPerformed( ActionEvent e) {
+        m_ok.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
                 onOk();
             }
         });
-        m_cancel.addActionListener( new ActionListener() {
-            public void actionPerformed( ActionEvent e) {
+        m_cancel.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
                 onCancel();
             }
         });
 
         setSize(250, 600);
-        centerOnOwner( this);
+        centerOnOwner(this);
     }
 
-     public void onAddParam() {
+    public void onAddParam() {
         try {
             String tag = m_tag.getText();
             String value = m_value.getText();
 
-            m_paramModel.addParam( new TagValue(tag, value));
-        }
-        catch( Exception e) {
-            reportError( "Error - ", e);
+            m_paramModel.addParam(new TagValue(tag, value));
+        } catch (Exception e) {
+            reportError("Error - ", e);
             return;
         }
     }
 
     public void onRemoveParam() {
         try {
-            if ( m_paramTable.getSelectedRowCount() != 0 ) {
+            if (m_paramTable.getSelectedRowCount() != 0) {
                 int[] rows = m_paramTable.getSelectedRows();
-                for ( int i=rows.length -1; i>=0 ; i-- ) {
-                        m_paramModel.removeParam( rows[i]);
+                for (int i = rows.length - 1; i >= 0; i--) {
+                    m_paramModel.removeParam(rows[i]);
                 }
             }
-        }
-        catch( Exception e) {
-            reportError( "Error - ", e);
+        } catch (Exception e) {
+            reportError("Error - ", e);
             return;
         }
     }
 
     void onOk() {
-    	Vector<TagValue> smartComboRoutingParams = m_paramModel.smartComboRoutingParams();
-    	m_order.m_smartComboRoutingParams = smartComboRoutingParams.isEmpty() ? null : smartComboRoutingParams;
+        Vector<TagValue> smartComboRoutingParams = m_paramModel.smartComboRoutingParams();
+        m_order.m_smartComboRoutingParams = smartComboRoutingParams.isEmpty() ? null : smartComboRoutingParams;
 
-        setVisible( false);
+        setVisible(false);
     }
 
     void onCancel() {
-        setVisible( false);
+        setVisible(false);
     }
 
 
-    void reportError( String msg, Exception e) {
-        Main.inform( this, msg + " --" + e);
+    void reportError(String msg, Exception e) {
+        Main.inform(this, msg + " --" + e);
     }
 
-    private static void centerOnOwner( Window window) {
+    private static void centerOnOwner(Window window) {
         Window owner = window.getOwner();
-        if( owner == null) {
+        if (owner == null) {
             return;
         }
-        int x = owner.getX() + ((owner.getWidth()  - window.getWidth())  / 2);
+        int x = owner.getX() + ((owner.getWidth() - window.getWidth()) / 2);
         int y = owner.getY() + ((owner.getHeight() - window.getHeight()) / 2);
-        if( x < 0) x = 0;
-        if( y < 0) y = 0;
-        window.setLocation( x, y);
+        if (x < 0) x = 0;
+        if (y < 0) y = 0;
+        window.setLocation(x, y);
     }
 }
 
@@ -169,19 +169,19 @@ class SmartComboRoutingParamModel extends AbstractTableModel {
 
     private Vector<TagValue> m_allData = new Vector<TagValue>();
 
-    synchronized public void addParam( TagValue tagValue) {
-        m_allData.add( tagValue);
+    synchronized public void addParam(TagValue tagValue) {
+        m_allData.add(tagValue);
         fireTableDataChanged();
     }
 
-    synchronized public void removeParam( int index) {
-        m_allData.remove( index);
+    synchronized public void removeParam(int index) {
+        m_allData.remove(index);
         fireTableDataChanged();
     }
 
     synchronized public void reset() {
         m_allData.removeAllElements();
-		fireTableDataChanged();
+        fireTableDataChanged();
     }
 
     synchronized public int getRowCount() {

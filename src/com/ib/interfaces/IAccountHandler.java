@@ -7,8 +7,11 @@ import com.ib.controller.Position;
  */
 public interface IAccountHandler {
     public void accountValue(String account, String key, String value, String currency);
+
     public void accountTime(String timeStamp);
+
     public void accountDownloadEnd(String account);
+
     public void updatePortfolio(Position position);
 }
 

@@ -57,10 +57,17 @@ public class EClientErrors {
         String m_errorMsg;
 
         // Get/Set methods
-        public int code()    { return m_errorCode; }
-        public String msg()  { return m_errorMsg; }
+        public int code() {
+            return m_errorCode;
+        }
 
-        /** Constructor */
+        public String msg() {
+            return m_errorMsg;
+        }
+
+        /**
+         * Constructor
+         */
         public CodeMsgPair(int i, String errString) {
             m_errorCode = i;
             m_errorMsg = errString;

@@ -11,13 +11,15 @@ import javax.swing.*;
 public class Logger implements ILogger {
     final private JTextArea m_area;
 
-    public Logger( JTextArea area) {
+    public Logger(JTextArea area) {
         m_area = area;
     }
 
-    @Override public void log(final String str) {
-        SwingUtilities.invokeLater( new Runnable() {
-            @Override public void run() {
+    @Override
+    public void log(final String str) {
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
 //					m_area.append(str);
 //
 //					Dimension d = m_area.getSize();

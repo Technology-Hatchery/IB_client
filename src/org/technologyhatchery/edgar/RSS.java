@@ -62,9 +62,7 @@ public class RSS {
     }
 
 
-
-
-    private ArrayList<Item> processRSS (Document doc){
+    private ArrayList<Item> processRSS(Document doc) {
         //Extract RSS Feed information
         NodeList nItems = doc.getElementsByTagName("channel").item(0).getChildNodes();
         Node nNode;
@@ -95,7 +93,7 @@ public class RSS {
             } else {
                 //Do nothing
             }
-        //}
+            //}
         }
 
 
